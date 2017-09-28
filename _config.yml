@@ -1,0 +1,87 @@
+# Site settings
+title: Body
+name: body
+email: body
+author:
+    name: DHS
+description: body
+highlighter: rouge
+repo_url: https://github.com/dhs-ncats/body
+baseurl: '/body'
+branch: federalist-pages
+# Federalist overwrites the site.branch value when deploying
+# the site.branch was used in dynamic link generation for objects like Edit Page
+# we want the dynamic links to send users to the staging branch.  Adding new site variable to ensure federalist doesn't overwrite.
+editbranch: master
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: /body/img/logo.png
+logoalt: Department of Homeland Security
+
+# Links
+# List links that you would like to appear on the top navigation bar here
+navbar:
+- title: dhs.gov
+  description: dhs.gov
+  url: https://www.dhs.gov/cyber
+
+# Put the information about your site's GitHub repository if it is public
+repo_url: https://github.com/dhs-ncats/body
+
+# Build settings
+markdown: kramdown
+
+exclude:
+- bin
+- config.rb
+- Gemfile
+- Gemfile.lock
+- gems
+- Procfile
+- Rakefile
+- README.md
+- script
+- vendor
+
+navigation:
+- text: Home
+  url: ''
+  internal: true
+  coll: false
+- text: Guide
+  url: guide
+  internal: true
+  coll: false
+- text: Introduction
+  url: intro
+  internal: true
+  coll: false
+- text: HTTPS
+  url: https
+  internal: true
+  coll: false
+- text: Services Framework
+  url: services/
+  internal: true
+  coll: true
+  collname: services
+
+#https://github.com/jekyll/jekyll/issues/2346
+collections:
+  usecases:
+    label: "Use Cases"
+    permalink: usecases/:path/
+    output: true
+  services:
+    label: "Services"
+    permalink: services/:path/
+    output: true
+
+include:
+- _stylesheets
+- _javascript
+
+
+
+# Custom site configuration
+lang: en
