@@ -31,8 +31,8 @@ $image-path: '../vendor/uswds/img';
 }
 
 .site-header {
-
-  background-color: $color-primary-darkest;
+  //DHS blue
+  background-color: #003965;
 
   @include media($nav-width) {
     border-bottom: none;
@@ -195,6 +195,7 @@ $image-path: '../vendor/uswds/img';
   font-family: $font-serif;
 
   position: absolute;
+  left: 7rem;
   right: 0;
   bottom: 0;
   display: inline-block; // starting: not scrolled
@@ -309,4 +310,3 @@ $image-path: '../vendor/uswds/img';
     margin-top: 4rem;
   }
 }
-
