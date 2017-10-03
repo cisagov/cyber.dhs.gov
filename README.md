@@ -7,4 +7,4 @@ This project is in the worldwide [public domain](LICENSE.md).
 > All contributions to this project will be released under the CC0 dedication. By submitting a pull request, you are agreeing to comply with this waiver of copyright interest.
 
 ### Special Thanks
-Special thanks to the teams at [18F](https://18f.gsa.gov/) and [FICAM](https://arch.idmanagement.gov/) for their open and transparent model which benefits citizens, government, and technology.
+Special thanks to the team at [18F](https://18f.gsa.gov/) for their open and transparent model which benefits citizens, government, and technology.
