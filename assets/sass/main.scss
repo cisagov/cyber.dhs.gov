@@ -195,7 +195,6 @@ $image-path: '../vendor/uswds/img';
   font-family: $font-serif;
 
   position: absolute;
-  left: 7rem;
   right: 0;
   bottom: 0;
   display: inline-block; // starting: not scrolled
@@ -204,7 +203,7 @@ $image-path: '../vendor/uswds/img';
   top: 3rem; // height of disclaimer + navbar on mobile
 
   padding-top: 0;
-  margin-top: 5rem;
+  margin-top: 0;
 
   padding-right: 3rem;
   padding-left: 3rem;
@@ -310,3 +309,4 @@ $image-path: '../vendor/uswds/img';
     margin-top: 4rem;
   }
 }
+
