@@ -1,0 +1,65 @@
+<header class="usa-header site-header" role="banner">
+
+  {% include banner.html %}
+
+  <div class="usa-navbar site-header-navbar">
+    <button class="usa-menu-btn">Menu</button>
+    <div class="usa-logo site-logo" id="logo">
+      <em class="usa-logo-text">
+        <a href="{{ site.baseurl }}/" id="logo-text" title="{{ site.title }}">
+          {{ site.title }}
+        </a>
+        <a href="{{ site.baseurl }}/" id="logo-text-small" title="{{ site.title }}">
+          {{ site.small_title }}
+        </a>
+        <a href="{{ site.baseurl }}/" id="logo-text-smallest" title="{{ site.title }}">
+          {{ site.smallest_title }}
+        </a>
+      </em>
+    </div>
+
+    <ul class="usa-button-list usa-unstyled-list">
+      <li>
+        <a class="usa-button" target="_blank" href="{{ site.report_url }}">
+          Download as a PDF
+        </a>
+      </li>
+    </ul>
+  </div>
+
+<!-- TBD horizontal nav -->
+  <nav role="navigation" class="usa-nav">
+    <div class="usa-nav-inner">
+      <button class="usa-nav-close">
+        <img src="{{ site.baseurl }}/{{ site.uswds_path }}/img/close.svg" alt="close">
+      </button>
+    </div>
+  </nav>
+
+</header>
+
+<!-- Mobile nav -->
+<nav role="navigation" class="usa-nav sidenav-mobile">
+  <div class="usa-nav-inner">
+    <button class="usa-nav-close">
+      <img src="{{ site.baseurl }}/{{ site.uswds_path }}/img/close.svg" alt="close">
+    </button>
+
+    <ul class="usa-sidenav-list usa-accordion">
+      {% for section in site.data.navigation.mobile %}
+        <li>
+          <a href="{{ section.href }}">{{ section.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <ul class="usa-button-list usa-unstyled-list">
+      <li>
+        <a class="usa-button" target="_blank" href="{{ site.report_url }}">
+          Download as a PDF
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</nav>

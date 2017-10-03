@@ -1,0 +1,20 @@
+primary:
+  - text: Home
+    href: /
+  - text: "Intro"
+    href: /intro/
+  - text: "Guide"
+    href: /guide/
+  - text: "Resources"
+    href: /resources/
+
+
+mobile:
+  - text: Home
+    href: /
+  - text: "Intro"
+    href: intro
+  - text: "Guide"
+    href: guide
+  - text: "Resources"
+    href: resources

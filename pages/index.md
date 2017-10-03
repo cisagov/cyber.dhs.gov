@@ -1,7 +1,15 @@
 ---
-layout: default
+layout: base
 title: Home
 permalink: /
+
+subnav:
+  - text: Background
+    href: "#i-ipsum"
+  - text: Required Actions
+    href: "#ii-morem-ipsum"
+  - text: DHS Actions
+    href: "#iii-even-morem-ipsum"
 ---
 
 ## Lorem
@@ -32,10 +40,12 @@ qui quem excepteur, ad nulla summis elit officia, ex non nisi fugiat cillum,
 veniam ad mandaremus non malis.
 
 
-#### A. Morem Ipsumn
+### II. Morem Ipsum
 
-##### Dolor sit amet
+Commodo ut tamen a sed quid imitarentur, admodum duis litteris excepteur sed se
+legam singulis despicationes.
 
+### III. Even Morem Ipsum
 
 Iis qui quis fugiat dolore. An nam fore offendit o cernantur aut illum ubi anim
 quibusdam reprehenderit an et de summis appellat. Cernantur multos vidisse

@@ -1,8 +1,9 @@
 ---
-layout: default
+layout: base
 title: Introduction
-permalink: /intro/
+permalink: intro/
 ---
+
 ### Et quis doctrina
 Summis laborum de exercitation ne ut an malis admodum, tamen
 et constias. Expetendis id arbitror, sint mentitum ad cupidatat. Ullamco cillum
