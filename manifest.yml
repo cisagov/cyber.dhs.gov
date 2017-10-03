@@ -1,0 +1,5 @@
+---
+applications:
+- name: cyber-dev
+  memory: 64M
+  buildpack: staticfile_buildpack
