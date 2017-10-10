@@ -31,7 +31,7 @@ $image-path: '../vendor/uswds/img';
 }
 
 .site-header {
-  //DHS blue
+  // DHS blue
   background-color: #003965;
 
   @include media($nav-width) {
@@ -248,6 +248,10 @@ $image-path: '../vendor/uswds/img';
 
   h2 {
     color: $color-primary-darker;
+  }
+
+  h5 {
+    color: $color-primary-darker
   }
 }
 
