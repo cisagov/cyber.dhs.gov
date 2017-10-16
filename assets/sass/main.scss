@@ -31,7 +31,7 @@ $image-path: '../vendor/uswds/img';
 }
 
 .site-header {
-  // DHS blue
+
   background-color: #003965;
 
   @include media($nav-width) {
@@ -215,7 +215,7 @@ $image-path: '../vendor/uswds/img';
   }
 
   p, h1, h2, h3, h4, h5, h6, ul, ol {
-    max-width: 66ch !important;
+    max-width: 95ch !important;
   }
 
   @include media($nav-width) {
@@ -247,10 +247,6 @@ $image-path: '../vendor/uswds/img';
 
   h2 {
     color: $color-primary-darker;
-  }
-
-  h5 {
-    color: $color-primary-darker
   }
 }
 
@@ -312,4 +308,25 @@ $image-path: '../vendor/uswds/img';
   .usa-button-list {
     margin-top: 4rem;
   }
+}
+
+pre {
+  max-width: 80%;
+  font-size: 0.875em;
+  overflow-y: scroll;
+  background-color: #f1f2f2;
+  padding: 10px;
+}
+
+p > code, li > code {
+  padding: 2px 4px;
+  background-color: #eaeaff;
+  border: 1px solid #d5d5d5;
+  font-size: 10pt;
+  font-family: monospace;
+}
+
+a.usa-sidenav-edit {
+    color: #0072ce;
+    text-decoration: underline;
 }

@@ -1,15 +1,17 @@
 # OpenGraph / Twitter metadata
-title: body
-small_title: body
-smallest_title: body
-description: body
-name: body
+title: Enhance Email and Web Security
+small_title: Enhance Email & Web Security
+smallest_title: Email & Web Security
+description: Binding Operational Directive 18-01 - Enhancing Email and Web Security
+name: BOD 18-01
 
-report_url: "https://www.dhs.gov/cyber"
+report_url: "/assets/report/bod-18-01.pdf"
 
 # GA and GitHub data
-
-repo: https://github.com/dhs-ncats/body
+google_analytics_ua: ua-33523145-2
+org_name: dhs-ncats
+repo_name: cyber.dhs.gov
+branch: master
 
 uswds_path: assets/vendor/uswds
 
@@ -32,8 +34,12 @@ exclude:
 - .nvmrc
 - .sass-cache
 - todo.txt
-- assets/sass
 
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 defaults:
   - scope:
