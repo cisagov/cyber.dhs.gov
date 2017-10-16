@@ -1,20 +1,24 @@
 primary:
-  - text: Home
+  - text: BOD 18-01
     href: /
-  - text: "Intro"
+  - text: "Introduction to Email Authentication"
     href: /intro/
-  - text: "Guide"
+  - text: "HTTPS"
+    href: /https/
+  - text: "Compliance Guide"
     href: /guide/
   - text: "Resources"
     href: /resources/
 
 
 mobile:
-  - text: Home
+  - text: BOD 18-01
     href: /
-  - text: "Intro"
-    href: intro
-  - text: "Guide"
-    href: guide
+  - text: "Intro to Email Authentication"
+    href: /intro/
+  - text: "HTTPS"
+    href: /https/
+  - text: "Compliance Guide"
+    href: /guide/
   - text: "Resources"
-    href: resources
+    href: /resources/
