@@ -119,7 +119,7 @@ All agencies are **required** to:
 
       >-  3DES and RC4 ciphers are disabled on mail servers.
 
-      >iii. Within 15 days of the establishment of centralized National Cybersecurity Coordination and Integration Center (NCCIC) reporting location, adding the NCCIC as a recipient of DMARC aggregate reports.
+      >iii. Within 15 days of the establishment of centralized National Cybersecurity & Communications Integration Center (NCCIC) reporting location, adding the NCCIC as a recipient of DMARC aggregate reports.
 
       >iv. Within one year after issuance of this directive, setting a
             DMARC policy of "reject" for all second-level domains and
