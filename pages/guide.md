@@ -65,6 +65,10 @@ Where preloading directly is infeasible (for example, when HTTP is only served o
 BOD 18-01 requires email authentication be performed by *sending* domains. Evaluating inbound email against the sending domain's SPF/DKIM/DMARC records are **strongly recommended**, but not explicitly required.
 
 
+#### Does the Directive require the use of DKIM?
+BOD 18-01 requires federal agencies to set a DMARC policy of `p=reject`, which can be achieved without the use of DKIM. However, doing so is ultimately a policy decision for your organization to decide upon.
+
+
 #### What process should be followed in order to implement email authentication?
 For all second-level domains and all mail-sending hosts generally, make a plan to implement [SPF](/intro#spf--dkim), [DKIM](/intro/#spf--dkim) (mail-senders only), and [DMARC](/intro/#dmarc), **with a goal of setting** `p=reject` **on all second-level domains**.
 
