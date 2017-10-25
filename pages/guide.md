@@ -32,6 +32,7 @@ Answers to other common compliance questions appear below.
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
 * [Does the Directive require email authentication checks before mail delivery?](#does-the-directive-require-email-authentication-checks-before-mail-delivery)
+* [Does the Directive require the use of DKIM?](#does-the-directive-require-the-use-of-dkim)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
 * [How can I receive DMARC reports?](#how-can-i-receive-dmarc-reports)
 * [Where should DMARC reports be sent?](#where-should-dmarc-reports-be-sent)
