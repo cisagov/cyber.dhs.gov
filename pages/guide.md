@@ -13,18 +13,18 @@ This page provides implementation guidance for [Binding Operational Directive 18
 
 ### Checklist
 
-* Within **30 days** of BOD issuance (November 15th, 2017), submit an "Agency Plan of Action" to <FNR.BOD@hq.dhs.gov> and begin implementing the plan.
-* At **60 days** (December 15th, 2017) after BOD issuance (**and at every 30 days until full implementation**), provide a status report of plan implementation to <FNR.BOD@hq.dhs.gov>.
-* Within **90 days** (January 22, 2018) of BOD issuance:
+* Within **30 days** of BOD issuance *(November 15th, 2017)*, submit an "Agency Plan of Action" to <FNR.BOD@hq.dhs.gov> and begin implementing the plan.
+* At **60 days** *(December 15th, 2017)* after BOD issuance (**and at every 30 days until full implementation**), provide a status report of plan implementation to <FNR.BOD@hq.dhs.gov>.
+* Within **90 days** *(January 22, 2018)* of BOD issuance:
   * Configure all internet-facing mail servers to offer STARTTLS.
   * Configure all second-level domains to have valid SPF/DMARC records, with at minimum a DMARC policy of "p=none" and at least one address defined as a recipient of aggregate and/or failure reports.
-* By **120 days** (February 20, 2018) after BOD issuance:
+* By **120 days** *(February 20, 2018)* after BOD issuance:
   * Ensure all publicly accessible Federal websites and web services provide service through a secure connection (HTTPS-only, with HSTS).
   * Identify agency second-level domains that can be HSTS preloaded, and provide a list to DHS at <FNR.BOD@hq.dhs.gov>.
   * Disable SSLv2 and SSLv3 on web and mail servers.
   * Disable 3DES and RC4 ciphers on web and mail servers.
 * Within **15 days of the establishment of a centralized NCCIC reporting location**, add DHS as a recipient of DMARC aggregate reports.
-* Within **one year** (October 26, 2018) of BOD issuance, set a DMARC policy of "reject" for all second-level domains and mail-sending hosts.
+* Within **one year** *(October 26, 2018)* of BOD issuance, set a DMARC policy of "reject" for all second-level domains and mail-sending hosts.
 
 These dates provide a time buffer for Federal holidays.
 
