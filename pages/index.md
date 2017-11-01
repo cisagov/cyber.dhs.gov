@@ -100,7 +100,7 @@ All agencies are **required** to:
 1.  [Within 30 calendar days](/guide/#checklist) after issuance of this directive, develop
     and provide to DHS an "Agency Plan of Action for BOD 18-01" to:
 
-    a.  Enhance email security by:
+    a.  **Enhance email security by**:
 
       >i. [Within 90 days](/guide/#checklist) after issuance of this directive,
             configuring:
@@ -125,7 +125,7 @@ All agencies are **required** to:
             DMARC policy of "reject" for all second-level domains and
             mail-sending hosts.
 
-    b.  Enhance web security by:
+    b.  **Enhance web security by**:
 
       >i.  [Within 120 days](/guide/#checklist) after issuance of this directive, ensuring:
 
