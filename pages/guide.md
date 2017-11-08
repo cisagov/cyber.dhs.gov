@@ -15,7 +15,7 @@ This page provides implementation guidance for [Binding Operational Directive 18
 
 * Within **30 days** of BOD issuance *(November 15th, 2017)*, submit an "Agency Plan of Action" to <FNR.BOD@hq.dhs.gov> and begin implementing the plan.
 * At **60 days** *(December 15th, 2017)* after BOD issuance (**and at every 30 days until full implementation**), provide a status report of plan implementation to <FNR.BOD@hq.dhs.gov>.
-* Within **90 days** *(January 14, 2018)* of BOD issuance:
+* Within **90 days** *(January 15, 2018)* of BOD issuance:
   * Configure all internet-facing mail servers to offer STARTTLS.
   * Configure all second-level domains to have valid SPF/DMARC records, with at minimum a DMARC policy of "p=none" and at least one address defined as a recipient of aggregate and/or failure reports.
 * By **120 days** *(February 13, 2018)* after BOD issuance:
@@ -25,8 +25,6 @@ This page provides implementation guidance for [Binding Operational Directive 18
   * Disable 3DES and RC4 ciphers on web and mail servers.
 * Within **15 days of the establishment of a centralized NCCIC reporting location**, add DHS as a recipient of DMARC aggregate reports.
 * Within **one year** *(October 16, 2018)* of BOD issuance, set a DMARC policy of "reject" for all second-level domains and mail-sending hosts.
-
-These dates provide a time buffer for Federal holidays.
 
 ### Frequently Asked Questions
 Answers to other common compliance questions appear below.
