@@ -97,12 +97,12 @@ security.
 
 All agencies are **required** to:
 
-1.  Within 30 calendar days after issuance of this directive, develop
+1.  [Within 30 calendar days](/guide/#checklist) after issuance of this directive, develop
     and provide to DHS an "Agency Plan of Action for BOD 18-01" to:
 
-    a.  Enhance email security by:
+    a.  **Enhance email security by**:
 
-      >i. Within 90 days after issuance of this directive,
+      >i. [Within 90 days](/guide/#checklist) after issuance of this directive,
             configuring:
 
       >-  All internet-facing mail servers to offer STARTTLS, and
@@ -112,7 +112,7 @@ All agencies are **required** to:
                 at least one address defined as a recipient of aggregate
                 and/or failure reports.
 
-      >ii. Within 120 days after issuance of this directive, ensuring:
+      >ii. [Within 120 days](/guide/#checklist) after issuance of this directive, ensuring:
 
       >-  Secure Sockets Layer (SSL)v2 and SSLv3 are disabled on
                 mail servers, and
@@ -121,13 +121,13 @@ All agencies are **required** to:
 
       >iii. Within 15 days of the establishment of centralized National Cybersecurity & Communications Integration Center (NCCIC) reporting location, adding the NCCIC as a recipient of DMARC aggregate reports.
 
-      >iv. Within one year after issuance of this directive, setting a
+      >iv. [Within one year](/guide/#checklist) after issuance of this directive, setting a
             DMARC policy of "reject" for all second-level domains and
             mail-sending hosts.
 
-    b.  Enhance web security by:
+    b.  **Enhance web security by**:
 
-      >i.  Within 120 days after issuance of this directive, ensuring:
+      >i.  [Within 120 days](/guide/#checklist) after issuance of this directive, ensuring:
 
       > +  All publicly accessible Federal websites and web
                 services provide service through a secure connection
@@ -145,9 +145,9 @@ All agencies are **required** to:
     days of this directive per required action 1, begin implementing
     that plan.
 
-3.  At 60 calendar days after issuance of this directive, provide a
+3.  At [60 calendar days](/guide/#checklist) after issuance of this directive, provide a
     report to DHS on the status of that implementation. Continue to
-    report every 30 calendar days thereafter until implementation of the
+    report [every 30 calendar days](/guide/#checklist) thereafter until implementation of the
     agency’s BOD 18-01 plan is complete.
 
 ### III. DHS Actions
