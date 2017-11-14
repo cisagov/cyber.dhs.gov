@@ -13,7 +13,8 @@ This page provides implementation guidance for [Binding Operational Directive 18
 
 ### Checklist
 
-* Within **30 days** of BOD issuance *(November 15th, 2017)*, submit an "Agency Plan of Action" to <FNR.BOD@hq.dhs.gov> and begin implementing the plan.
+
+* Within **30 days** of BOD issuance *(November 16th, 2017)*, submit an "Agency Plan of Action" to <FNR.BOD@hq.dhs.gov> and begin implementing the plan.
 * At **60 days** *(December 15th, 2017)* after BOD issuance (**and at every 30 days until full implementation**), provide a status report of plan implementation to <FNR.BOD@hq.dhs.gov>.
 * Within **90 days** *(January 15, 2018)* of BOD issuance:
   * Configure all internet-facing mail servers to offer STARTTLS.
