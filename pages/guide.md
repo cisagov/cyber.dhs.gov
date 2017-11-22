@@ -129,14 +129,14 @@ In particular, deploying DKIM and DMARC without adequate planning can cause nega
 
 
 #### What should be done with domains that do not send mail?
-For second-level domains: 
-* A DMARC policy should be set, eventually to `p=reject`. 
+For second-level domains:
+* A DMARC policy should be set, eventually to `p=reject`.
 * An SPF "null record" should be added in DNS. A null record tells recipients that this domain sends no mail, and looks like this:
 
-```
+>```
 "v=spf1 -all"
 ```
 
-DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*. When a domain's DMARC policy is set to `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful. 
+DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*. When a domain's DMARC policy is set to `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful.
 
-Since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain. 
+Since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain.
