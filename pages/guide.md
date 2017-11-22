@@ -129,16 +129,14 @@ In particular, deploying DKIM and DMARC without adequate planning can cause nega
 
 
 #### What should be done with domains that do not send mail?
-DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*.
+For second-level domains: 
+* A DMARC policy should be set, eventually to `p=reject`. 
+* An SPF "null record" should be added in DNS. A null record tells recipients that this domain sends no mail, and looks like this:
 
-With DMARC `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful.
+```
+"v=spf1 -all"
+```
 
-Additionally, since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain.
+DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*. When a domain's DMARC policy is set to `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful. 
 
-
-<!-- #### Why isn't DHS scanning for DKIM?
-DKIM is an effective tool that we recommend deploying on mail-sending hosts. While DKIM information is placed in an organization’s public DNS, querying it out first requires a ‘selector’, which would need to be obtained from you prior to scanning. While this coordination could be done, we would then be detecting something that we already know exists. This doesn't -->
-
-<!-- #### SPF record v TXT record -->
-<!-- #### what is STARTTLS, process, ports -->
-<!-- move to TLS 1.2 -->
+Since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain. 
