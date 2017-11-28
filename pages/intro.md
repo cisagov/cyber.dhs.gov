@@ -63,7 +63,7 @@ In order to satisfy DMARC filtering, *at least one of either SPF or DKIM [must](
 If not, DMARC allows a sender to set one of three separate policy states for email disposition:
 1. block delivery of unauthenticated messages (noted in the DMARC record as `p=reject`),
 2. place unauthenticated messages in the recipient’s junk email folder (`p=quarantine`), or
-3. specify no guidance on how to treat unauthenticated messages (`p=none`). This setting should be viewed as a temporary policy setting before getting to `p=quarantine` and `p=reject`.
+3. specify no guidance on how to treat unauthenticated messages (`p=none`). This setting should be viewed as a temporary policy setting before getting to `p=quarantine` and `p=reject`, and is only meaningful when coupled with reporting (described below).
 
 In other words, by using DMARC, a sending domain can instruct receiving email servers to **block delivery of all unauthenticated messages – such as phishing messages** – that claim to be from the sending domain.
 
