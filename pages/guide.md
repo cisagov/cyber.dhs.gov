@@ -75,6 +75,8 @@ BOD 18-01 requires federal agencies to set a DMARC policy of `p=reject`, which c
 #### What process should be followed in order to implement email authentication?
 For all second-level domains and all mail-sending hosts generally, make a plan to implement [SPF](/intro#spf--dkim), [DKIM](/intro/#spf--dkim) (mail-senders only), and [DMARC](/intro/#dmarc), **with a goal of setting** `p=reject` **on all second-level domains**.
 
+While implementing email authentication on a second-level domain, it is possible to specify separate policies for its subdomains. However, by October 16th, 2018, the second-level domain must be at `p=reject` without any other policies on subdomains.
+
 [NIST Special Publication 800-177, section 4.6.1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177.pdf#page=54) recommends:
 
 > *When implementing email authentication for a domain for the first time, a sending domain owner is advised to first publish a DMARC [resource record] with a "none" policy before deploying SPF or DKIM. This allows the sending domain owner to immediately receive reports indicating the volume of email being sent that purports to be from their domain. These reports can be used in crafting an email authentication policy that reduces the risk of errors.*
