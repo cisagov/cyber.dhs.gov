@@ -90,10 +90,10 @@ While you work to properly authenticate email sent from subdomains, it is reason
 
 
 #### What should be done with domains that do not send mail?
-Even if you do not send mail from your second-level domain, anyone can spoof your domain and make it appear as though mail is coming from you. Setting a DMARC policy of `p=reject` signals to recipient mail servers to reject any email purportedly sent from that domain, protecting your reputation and your stakeholders from likely malicious actors.
+Even if you do not send mail from your domain, anyone can spoof it to give the *appearance* that mail is coming from you. Setting a DMARC policy of `p=reject` signals to recipient mail servers to reject any email purportedly sent from the domain, protecting your reputation and your stakeholders from likely malicious actors.
 
 The following steps should be taken for second-level domains that don't send mail:
-* Set a DMARC policy of `p=reject`. You are **strongly encouraged** to set a policy of `p=none` first and to review DMARC reports to validate the notion that no authorized mail is sent from the domain.
+* Set a DMARC policy of `p=reject`. But before setting `p=reject`, you are **strongly encouraged** to first set a policy of `p=none`, [specify a target address](#how-can-i-receive-dmarc-reports) to receive DMARC reports at, and then review DMARC reports to confirm that no authorized mail is sent from the domain. Once you've confirmed that authorized email would not be interfered with, move the DMARC policy to `p=reject`.
 * An SPF "null record" should be added in DNS. A null record tells recipients that this domain sends no mail, and looks like this:
 
 >```
