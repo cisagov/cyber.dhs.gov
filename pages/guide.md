@@ -48,7 +48,9 @@ The Directive applies to internet-facing agency information systems, which encom
 
 
 #### What is a second-level domain?
-A second-level domain in this context is the domain name immediately to the left of and including the top-level domain. For example, in the URL `wwww.example.gov`, the second-level domain is `example.gov`.
+A "second-level domain" is the domain name your organization has directly registered, inclusive of the top-level domain. In the example `www.dhs.gov`, the second-level domain is `dhs.gov`. 
+
+Some examples of top-level domains (TLDs; sometimes called "[public suffixes](https://publicsuffix.org/learn/)") are `.gov`, `.mil`, `.fed.us`, `.org`, or `.com`.  OMB memorandum [M-17-06](https://policy.cio.gov/web-policy/domain/) requires that federal agencies use the `.gov` or `.mil` TLDs.
 
 
 #### How does the web security requirement in BOD 18-01 differ from M-15-13?
