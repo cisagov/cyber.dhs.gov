@@ -34,14 +34,14 @@ Answers to other common compliance questions appear below.
 * [What is a second-level domain?](#what-is-a-second-level-domain)
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
-* [Does the Directive require email authentication checks before mail delivery?](#does-the-directive-require-email-authentication-checks-before-mail-delivery)
-* [Does the Directive require the use of DKIM?](#does-the-directive-require-the-use-of-dkim)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
 * [What are the ramifications of setting subdomain policies?](#what-are-the-ramifications-of-setting-subdomain-policies)
+* [What should be done with domains that do not send mail?](#what-should-be-done-with-domains-that-do-not-send-mail)
 * [How can I receive DMARC reports?](#how-can-i-receive-dmarc-reports)
 * [Where should DMARC reports be sent?](#where-should-dmarc-reports-be-sent)
 * [Can email authentication hinder my organization’s ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
-* [What should be done with domains that do not send mail?](#what-should-be-done-with-domains-that-do-not-send-mail)
+* [Does the Directive require email authentication checks before mail delivery?](#does-the-directive-require-email-authentication-checks-before-mail-delivery)
+* [Does the Directive require the use of DKIM?](#does-the-directive-require-the-use-of-dkim)
 
 
 #### What is the scope of BOD 18-01?
@@ -72,14 +72,6 @@ You are encouraged to [preload your domains yourself](https://https.cio.gov/hsts
 Where preloading directly is infeasible (for example, when HTTP is only served on subdomains, not on the 'www' of the base domain or at the domain root directly), you should include domains to preload in your Agency Plan of Action and DHS will coordinate the preloading with the [DotGov program](https://home.dotgov.gov/).
 
 
-#### Does the Directive require email authentication checks before mail delivery?
-BOD 18-01 requires email authentication be performed by *sending* domains. Evaluating inbound email against the sending domain's SPF/DKIM/DMARC records are **strongly recommended**, but not explicitly required.
-
-
-#### Does the Directive require the use of DKIM?
-BOD 18-01 requires federal agencies to set a DMARC policy of `p=reject`, which can be achieved without the use of DKIM. However, doing so is ultimately a policy decision for your organization to decide upon.
-
-
 #### What process should be followed in order to implement email authentication?
 For all second-level domains and all mail-sending hosts generally, make a plan to implement [SPF](/intro#spf--dkim), [DKIM](/intro/#spf--dkim) (mail-senders only), and [DMARC](/intro/#dmarc), **with a goal of setting** `p=reject` **on all second-level domains**.
 
@@ -95,6 +87,21 @@ Subdomains can have their own `p=` policy set (e.g., at `_dmarc.subdomain.domain
 Setting `p=reject` at the second-level domain is intended by the Directive so as to cascade throughout the zone, protecting all subdomains against spoofing. This is thwarted, though, when a policy weaker than `p=reject` is set on any subdomain directly or via an`sp=` tag set on a second-level domain.
 
 While you work to properly authenticate email sent from subdomains, it is reasonable to set weaker-than-reject `p=` policies on subdomains or by setting an `sp=` on second-level domains. However, [at one year after BOD issuance](https://cyber.dhs.gov/guide/#checklist), the second-level domain **must be at `p=reject` with no `sp=` policies set at the second-level domain nor subdomains with explicit policies less restrictive than `reject`.**
+
+
+#### What should be done with domains that do not send mail?
+For second-level domains:
+* A DMARC policy should be set, eventually to `p=reject`.
+* An SPF "null record" should be added in DNS. A null record tells recipients that this domain sends no mail, and looks like this:
+
+>```
+"v=spf1 -all"
+```
+
+DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*. When a domain's DMARC policy is set to `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful.
+
+Since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain.
+
 
 #### How can I receive DMARC reports?
 You can configure a target address for DMARC report delivery by specifying for `rua=` (aggregate) or `ruf=` (failure) [DMARC tags](https://tools.ietf.org/html/rfc7489#section-6.3). You should receive reports from [participating email providers](http://dmarc.io/sources/) within 48 hours.
@@ -142,15 +149,9 @@ In particular, deploying DKIM and DMARC without adequate planning can cause nega
 - A DMARC policy of `p=reject` tells recipients to drop mail that does not match the specified SPF and DKIM policies. While this has no impact on domains that don’t send mail, it will cause cause delivery failure when there is a policy mismatch; indeed, that is its purpose.
 
 
-#### What should be done with domains that do not send mail?
-For second-level domains:
-* A DMARC policy should be set, eventually to `p=reject`.
-* An SPF "null record" should be added in DNS. A null record tells recipients that this domain sends no mail, and looks like this:
+#### Does the Directive require email authentication checks before mail delivery?
+BOD 18-01 requires email authentication be performed by *sending* domains. Evaluating inbound email against the sending domain's SPF/DKIM/DMARC records are **strongly recommended**, but not explicitly required.
 
->```
-"v=spf1 -all"
-```
 
-DMARC policies set at a second-level domain act as a wildcard, covering subdomains generally, *including non-mail-sending domains*. When a domain's DMARC policy is set to `p=reject`, it is not necessary to specify SPF "null records" on every active domain in the zone, though doing so is not harmful.
-
-Since [mail clients check for a DMARC policy at the sending subdomain first](https://tools.ietf.org/html/rfc7489#section-6.6.3), it is possible to set a separate DMARC policy at (for example) `project.example.gov` even with the stronger policy at the second-level domain.
+#### Does the Directive require the use of DKIM?
+BOD 18-01 requires federal agencies to set a DMARC policy of `p=reject`, which can be achieved without the use of DKIM. However, doing so is ultimately a policy decision for your organization to decide upon.
