@@ -31,6 +31,7 @@ This page provides implementation guidance for [Binding Operational Directive 18
 Answers to other common compliance questions appear below.
 
 * [What is the scope of BOD 18-01?](#what-is-the-scope-of-bod-18-01)
+* [What is a second-level domain?](#what-is-a-second-level-domain)
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
 * [Does the Directive require email authentication checks before mail delivery?](#does-the-directive-require-email-authentication-checks-before-mail-delivery)
@@ -44,6 +45,12 @@ Answers to other common compliance questions appear below.
 
 #### What is the scope of BOD 18-01?
 The Directive applies to internet-facing agency information systems, which encompasses those systems directly managed by an agency as well as those operated on an agency's behalf. Its primary focus is on agency mail and web infrastructure, regardless of domain suffix.
+
+
+#### What is a second-level domain?
+A "second-level domain" is the domain name your organization has directly registered, inclusive of the top-level domain. In the example `www.dhs.gov`, the second-level domain is `dhs.gov`. 
+
+Some examples of top-level domains (TLDs; sometimes called "[public suffixes](https://publicsuffix.org/learn/)") are `.gov`, `.mil`, `.fed.us`, `.org`, or `.com`.  OMB memorandum [M-17-06](https://policy.cio.gov/web-policy/domain/) requires that federal agencies use the `.gov` or `.mil` TLDs.
 
 
 #### How does the web security requirement in BOD 18-01 differ from M-15-13?
