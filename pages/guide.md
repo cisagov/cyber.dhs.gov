@@ -36,6 +36,7 @@ Answers to other common compliance questions appear below.
 * [Does the Directive require email authentication checks before mail delivery?](#does-the-directive-require-email-authentication-checks-before-mail-delivery)
 * [Does the Directive require the use of DKIM?](#does-the-directive-require-the-use-of-dkim)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
+* [What are the ramifications of setting subdomain policies?](#what-are-the-ramifications-of-setting-subdomain-policies)
 * [How can I receive DMARC reports?](#how-can-i-receive-dmarc-reports)
 * [Where should DMARC reports be sent?](#where-should-dmarc-reports-be-sent)
 * [Can email authentication hinder my organization’s ability to deliver email?](#can-email-authentication-hinder-my-organizations-ability-to-deliver-email)
@@ -75,14 +76,18 @@ BOD 18-01 requires federal agencies to set a DMARC policy of `p=reject`, which c
 #### What process should be followed in order to implement email authentication?
 For all second-level domains and all mail-sending hosts generally, make a plan to implement [SPF](/intro#spf--dkim), [DKIM](/intro/#spf--dkim) (mail-senders only), and [DMARC](/intro/#dmarc), **with a goal of setting** `p=reject` **on all second-level domains**.
 
-While implementing email authentication on a second-level domain, it is possible to specify separate policies for its subdomains. However, by October 16th, 2018, the second-level domain must be at `p=reject` without any other policies on subdomains.
-
 [NIST Special Publication 800-177, section 4.6.1](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177.pdf#page=54) recommends:
 
 > *When implementing email authentication for a domain for the first time, a sending domain owner is advised to first publish a DMARC [resource record] with a "none" policy before deploying SPF or DKIM. This allows the sending domain owner to immediately receive reports indicating the volume of email being sent that purports to be from their domain. These reports can be used in crafting an email authentication policy that reduces the risk of errors.*
 
 See the [Resources](/resources/#implement) page for implementation case studies.
 
+#### What are the ramifications of setting subdomain policies?
+Subdomains can have their own `p=` policy set (e.g., at `_dmarc.subdomain.domain.gov`), but otherwise they inherit the `p=` policy set at the second-level domain or, if present, the subdomain policy ([`sp=`](https://tools.ietf.org/html/rfc7489#section-6.3)) at the second-level domain. 
+
+Setting `p=reject` at the second-level domain is intended by the Directive so as to cascade throughout the zone, protecting all subdomains against spoofing. This is thwarted, though, when a policy weaker than `p=reject` is set on any subdomain directly or via an`sp=` tag set on a second-level domain.
+
+While you work to properly authenticate email sent from subdomains, it is reasonable to set weaker-than-reject `p=` policies on subdomains or by setting an `sp=` on second-level domains. However, [at one year after BOD issuance](https://cyber.dhs.gov/guide/#checklist), the second-level domain **must be at `p=reject` with no `sp=` policies set at the second-level domain nor subdomains with explicit policies less restrictive than `reject`.**
 
 #### How can I receive DMARC reports?
 You can configure a target address for DMARC report delivery by specifying for `rua=` (aggregate) or `ruf=` (failure) [DMARC tags](https://tools.ietf.org/html/rfc7489#section-6.3). You should receive reports from [participating email providers](http://dmarc.io/sources/) within 48 hours.
