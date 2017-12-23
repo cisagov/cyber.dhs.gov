@@ -22,11 +22,14 @@ This section is a recital and elaboration of key points in two recent Federal do
 * a domain owner to assert control over its domains, making them harder to successfully spoof in email.
 * the recipient of an email to have reasonable confidence that a message which purports to be from a given domain is genuine or not.
 
-Email authentication can impede the delivery of phishing emails that attempt to play on an organization's domains, which protects the sender's reputation and keeps likely-harmful emails out of recipient mailboxes. This protects citizens who might receive authoritative-sounding emails claiming to be from a .gov address, and equally protects internal government users who may rely on information that appears to come, e.g., from an important colleague.
+Email authentication can impede the delivery of phishing emails that attempt to play off an organization's domain names. This protects:
+* the sender's reputation and keeps likely-harmful emails out of recipient mailboxes.
+* the public who might receive authoritative-sounding emails claiming to be from a .gov address.
+* internal government users who may rely on information that appears to come, e.g., from an important colleague.
 
 There are three predominant forms of email authentication technology: [SPF](#spf--dkim), [DKIM](#spf--dkim), and [DMARC](#dmarc). Conceptually, each operate similarly:
 1. When an email arrives at a recipient mail server, it queries the sending domain's DNS to check for relevant email authentication records.
-2. If email authentication records are found, the server evaluates the email it received against the email authentication records and make a delivery determination: delivered, marked as questionable, or discarded altogether.
+2. If email authentication records are found, the server evaluates the email it received against the email authentication records and makes a determination: deliver it, deliver it but mark it as questionable, or discard it altogether.
 
 See [SP 800-177, section 4](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177.pdf#page=37) for a detailed technical description.
 
