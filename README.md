@@ -3,11 +3,11 @@
 
 
 ### Standing on the shoulders of :us:
-* The application is optimized for deployment on 18F's [Federalist](https://federalist.18f.gov) static site hosting service.
-* The [U.S. Web Design Standards](https://standards.usa.gov), a set of reusable, high quality components for modern websites. [Many other U.S. government websites use the Standards](https://github.com/18F/web-design-standards/blob/develop/WHO_IS_USING_USWDS.md#website-and-applications-that-use-the-standards).
-
-
 A special thanks to the teams at [GSA](https://github.com/GSA/)/[18F](https://github.com/18F/) for their open and transparent model, which benefits citizens, government, and technology.
+
+This application is optimized for deployment on 18F's [Federalist](https://federalist.18f.gov) static site hosting service.
+
+We use the [U.S. Web Design Standards](https://standards.usa.gov), a set of reusable, high quality components for modern websites. [Many other U.S. government websites use the Standards](https://github.com/18F/web-design-standards/blob/develop/WHO_IS_USING_USWDS.md#website-and-applications-that-use-the-standards).
 
 
 ### Developing locally
@@ -19,11 +19,13 @@ Dependencies:
 * **Node 6+** to install USWDS and dependencies
 * **Ruby** and **bundler** to install / run [Jekyll](https://jekyllrb.com).
 
+
 #### First-time setup
 1. Clone this repo.
 2. `npm install` to install the USWDS, and Gulp dependencies.
 3. `npm install -g gulp` to let you use the `gulp` CLI directly.
 4. `bundle install` to install Jekyll.
+
 
 #### Running the app
 
