@@ -24,7 +24,7 @@ This page provides implementation guidance for [Binding Operational Directive 18
   * Identify agency second-level domains that can be HSTS preloaded, and provide a list to DHS at <FNR.BOD@hq.dhs.gov>.
   * Disable SSLv2 and SSLv3 on web and mail servers.
   * Disable 3DES and RC4 ciphers on web and mail servers.
-* Within **15 days of the establishment of a centralized NCCIC reporting location**, add DHS as a recipient of DMARC aggregate reports.
+* Within **15 days of the establishment of a centralized NCCIC [reporting location](#dhs-dmarc-reporting-location)**, add DHS as a recipient of DMARC aggregate reports (`reports@cyber.dmarc.dhs.gov`).
 * Within **one year** *(October 16, 2018)* of BOD issuance, set a DMARC policy of "reject" for all second-level domains and mail-sending hosts.
 
 ### Frequently Asked Questions
@@ -49,7 +49,7 @@ The Directive applies to internet-facing agency information systems, which encom
 
 
 #### What is a second-level domain?
-A "second-level domain" is the domain name your organization has directly registered, inclusive of the top-level domain. In the example `www.dhs.gov`, the second-level domain is `dhs.gov`. 
+A "second-level domain" is the domain name your organization has directly registered, inclusive of the top-level domain. In the example `www.dhs.gov`, the second-level domain is `dhs.gov`.
 
 Some examples of top-level domains (TLDs; sometimes called "[public suffixes](https://publicsuffix.org/learn/)") are `.gov`, `.mil`, `.fed.us`, `.org`, or `.com`.  OMB memorandum [M-17-06](https://policy.cio.gov/web-policy/domain/) requires that federal agencies use the `.gov` or `.mil` TLDs.
 
@@ -82,7 +82,7 @@ For all second-level domains and all mail-sending hosts generally, make a plan t
 See the [Resources](/resources/#implement) page for implementation case studies.
 
 #### What are the ramifications of setting subdomain policies?
-Subdomains can have their own `p=` policy set (e.g., at `_dmarc.subdomain.domain.gov`), but otherwise they inherit the `p=` policy set at the second-level domain or, if present, the subdomain policy ([`sp=`](https://tools.ietf.org/html/rfc7489#section-6.3)) at the second-level domain. 
+Subdomains can have their own `p=` policy set (e.g., at `_dmarc.subdomain.domain.gov`), but otherwise they inherit the `p=` policy set at the second-level domain or, if present, the subdomain policy ([`sp=`](https://tools.ietf.org/html/rfc7489#section-6.3)) at the second-level domain.
 
 Setting `p=reject` at the second-level domain is intended by the Directive so as to cascade throughout the zone, protecting all subdomains against spoofing. This is thwarted, though, when a policy weaker than `p=reject` is set on any subdomain directly or via an`sp=` tag set on a second-level domain.
 
@@ -120,23 +120,34 @@ This DMARC record has a policy of `none` and requests that DMARC [aggregate repo
 
 Commercial services exist that help derive intelligence from DMARC reports, though their use is not required to receive or read DMARC reports.
 
-##### *Sending DMARC reports to others*
-Where cloud service providers or other contracted email service providers are utilized, sending DMARC reports to a domain different than the one requesting reports is possible with additional configuration. The intended recipient of DMARC reports must signal its willingness to accept the domain's reports with a DMARC TXT DNS record of the following syntax:
+##### *DHS DMARC reporting location*
+As indicated in [BOD 18-01](/), federal agencies must add NCCIC as an aggregate report recipient. The address that must be included is `reports@cyber.dmarc.dhs.gov`.
+
+##### *Sending DMARC reports to more than one reporting location*
+You are encouraged to receive your own DMARC reports in addition to sending them to DHS.
+
+When adding an additional `rua`, each address requires its own `mailto:`, and the addresses are then separated by a comma. The `rua` portion of the DMARC policy record could look like the following:
+
+>```
+"rua=mailto:dmarc-reports@example.gov,mailto:reports@cyber.dmarc.dhs.gov"
+```
+
+See [RFC 7489, section 6.2](https://tools.ietf.org/html/rfc7489#section-6.2), or an example at [appendix B.2.4](https://tools.ietf.org/html/rfc7489#appendix-B.2.4).
+
+##### *Sending DMARC reports to a different domain than your own*
+Sending DMARC reports to a domain *different than the one requesting reports* requires additional configuration at the intended recipient's DNS. In order to mitigate a denial of service threat whereby someone could request DMARC reports be sent to arbitrary domains, an intended recipient of DMARC reports must signal its willingness to accept another domain's reports with a DNS TXT record with the value `v=DMARC1` at a URI that follows this syntax:
 
 *`<original-sender-domain>._report._dmarc.<mailto-domain>`*
 
-For example, an original message sent from example.gov is authenticated with a DMARC record:
+For example, when mail is delivered that appears to come from `example.gov`, the recipient mail server queries for a TXT record at `_dmarc.example.gov`. It might find something like this:
 
 >```
 _dmarc.example.gov. IN TXT "v=DMARC1; p=reject; rua=mailto:reports.example.net"
 ```
 
-The recipient then queries for a DMARC TXT RR at `example.gov._report._dmarc.example.net` and checks the `rua` tag includes the value `rua=mailto:reports.example.net` to insure that the address specified in the sending domain owner's DMARC record is the legitimate receiver for DMARC reports.
+Here, the aggregate report for `example.gov` has been requested to be sent to `example.net`. Seeing that these are different domains, the recipient mail server will query for a TXT record at `example.gov._report._dmarc.example.net`. If it finds a TXT record starting with the value `v=DMARC1`, then example.net will be considered a legitimate recipient for example.gov's DMARC reports.
 
 More details can be found at [SP 800-177, section 4.6.6](http://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-177.pdf#page=60), and [RFC 7489, section 7.1](https://tools.ietf.org/html/rfc7489#section-7.1) (with [Appendix B.2.3](https://tools.ietf.org/html/rfc7489#appendix-B.2.3)).
-
-##### *DHS DMARC report collector*
-As indicated in [BOD 18-01](/), DHS will stand up a service that can receive and process DMARC reports that will collate details into your Cyber Hygiene reports. The address will be shared in late 2017.
 
 
 #### Can email authentication hinder my organization’s ability to deliver email?
