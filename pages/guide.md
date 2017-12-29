@@ -24,7 +24,7 @@ This page provides implementation guidance for [Binding Operational Directive 18
   * Identify agency second-level domains that can be HSTS preloaded, and provide a list to DHS at <FNR.BOD@hq.dhs.gov>.
   * Disable SSLv2 and SSLv3 on web and mail servers.
   * Disable 3DES and RC4 ciphers on web and mail servers.
-* Within **15 days of the establishment of a centralized NCCIC [reporting location](#dhs-dmarc-reporting-location)**, add DHS as a recipient of DMARC aggregate reports (`reports@cyber.dmarc.dhs.gov`).
+* Within **15 days of the establishment of a centralized NCCIC [reporting location](#dhs-dmarc-reporting-location)**, add DHS as a recipient of DMARC aggregate reports (`reports@dmarc.cyber.dhs.gov`).
 * Within **one year** *(October 16, 2018)* of BOD issuance, set a DMARC policy of "reject" for all second-level domains and mail-sending hosts.
 
 ### Frequently Asked Questions
@@ -121,15 +121,15 @@ This DMARC record has a policy of `none` and requests that DMARC [aggregate repo
 Commercial services exist that help derive intelligence from DMARC reports, though their use is not required to receive or read DMARC reports.
 
 ##### *DHS DMARC reporting location*
-As indicated in [BOD 18-01](/), federal agencies must add NCCIC as an aggregate report recipient. The address that must be included is `reports@cyber.dmarc.dhs.gov`.
+Federal agencies must add DHS NCCIC as an aggregate report recipient. The address that must be included is `reports@dmarc.cyber.dhs.gov`.
 
-##### *Sending DMARC reports to more than one reporting location*
+##### *Sending DMARC reports to more than one location*
 You are encouraged to receive your own DMARC reports in addition to sending them to DHS.
 
 When adding an additional `rua`, each address requires its own `mailto:`, and the addresses are then separated by a comma. The `rua` portion of the DMARC policy record could look like the following:
 
 >```
-"rua=mailto:dmarc-reports@example.gov,mailto:reports@cyber.dmarc.dhs.gov"
+rua=mailto:dmarc-reports@example.gov,mailto:reports@dmarc.cyber.dhs.gov
 ```
 
 See [RFC 7489, section 6.2](https://tools.ietf.org/html/rfc7489#section-6.2), or an example at [appendix B.2.4](https://tools.ietf.org/html/rfc7489#appendix-B.2.4).
