@@ -33,6 +33,7 @@ Answers to other common compliance questions appear below.
 * [What is the scope of BOD 18-01?](#what-is-the-scope-of-bod-18-01)
 * [What is a second-level domain?](#what-is-a-second-level-domain)
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
+* [My device is HTTPS already and doesn't natively support HSTS. Can DHS mark this a false positive?](#my-device-is-https-already-and-doesnt-natively-support-hsts-can-dhs-mark-this-a-false-positive)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
 * [What are the ramifications of setting subdomain policies?](#what-are-the-ramifications-of-setting-subdomain-policies)
@@ -63,7 +64,14 @@ BOD 18-01 also mandates two additional steps:
 
 [Preloading a domain](https://https.cio.gov/hsts/#hsts-preloading) enforces the use of HTTPS across an entire zone, and is technical compliance with the HTTPS usage requirements of BOD 18-01. Preloading allows agencies to avoid inventorying and configuring an HSTS policy for every individual subdomain, though this necessarily impacts all subdomains present on the domain, including intranet subdomains. Thus, all subdomains will need to support HTTPS in order to remain reachable for use in major browsers. Even with these two obstructions, preloading a domain can be a reality with coordinated effort.
 
-Second-level .gov domains that are [only used to redirect visitors to other websites](https://https.cio.gov/guide/#what-about-domains-that-are-only-used-to-redirect-visitors-to-other-websites%3f) and are not used on intranets are excellent preloading candidates. However, DHS **strongly recommends** that federal agencies perform a thorough evaluation of those domains that are highly trafficked or otherwise have significant value. Those are likely to be the domains that citizens and intra-agency users stand to benefit most from the always-HTTPS approach that preloading provides.
+Second-level .gov domains that are [only used to redirect visitors to other websites](https://https.cio.gov/guide/#what-about-domains-that-are-only-used-to-redirect-visitors-to-other-websites) and are not used on intranets are excellent preloading candidates. However, DHS **strongly recommends** that federal agencies perform a thorough evaluation of those domains that are highly trafficked or otherwise have significant value. Those are likely to be the domains that citizens and intra-agency users stand to benefit most from the always-HTTPS approach that preloading provides.
+
+#### My device is HTTPS already and doesn't natively support HSTS. Can DHS mark this a false positive?
+HSTS is intended to protect users, not servers. Even if a device is HTTPS-only, for as long as HTTP remains the default protocol for browsers, users are at risk from the [insecure redirect](https://https.cio.gov/hsts/#background). A lack of HSTS means that an attacker with an on-path vantage point can redirect or attempt to spoof a government web service.
+
+The best mitigation for this threat is to [preload your domains](https://https.cio.gov/hsts/#hsts-preloading).
+
+We encourage you to request that your vendors support HSTS in their products. Some federal agencies have had [success in these requests](https://18f.gsa.gov/2017/05/25/from-launch-to-landing-how-nasa-took-control-of-its-https-mission/#leadership-buy-in), and DHS is happy to assist you in the request.
 
 
 #### How should the list of second-level domains to be preloaded be shared with DHS?
