@@ -33,7 +33,7 @@ Answers to other common compliance questions appear below.
 * [What is the scope of BOD 18-01?](#what-is-the-scope-of-bod-18-01)
 * [What is a second-level domain?](#what-is-a-second-level-domain)
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
-* [My device is HTTPS already and doesn't natively support HSTS. Can DHS mark this a false positive?](#my-device-is-https-already-and-doesnt-natively-support-hsts-can-dhs-mark-this-a-false-positive)
+* [My device supports HTTPS already, but doesn't natively support HSTS. Can DHS mark this as a false positive?](#my-device-supports-https-already-but-doesnt-natively-support-hsts-can-dhs-mark-this-as-a-false-positive)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
 * [What are the ramifications of setting subdomain policies?](#what-are-the-ramifications-of-setting-subdomain-policies)
@@ -67,7 +67,7 @@ BOD 18-01 also mandates two additional steps:
 Second-level .gov domains that are [only used to redirect visitors to other websites](https://https.cio.gov/guide/#what-about-domains-that-are-only-used-to-redirect-visitors-to-other-websites) and are not used on intranets are excellent preloading candidates. However, DHS **strongly recommends** that federal agencies perform a thorough evaluation of those domains that are highly trafficked or otherwise have significant value. Those are likely to be the domains that citizens and intra-agency users stand to benefit most from the always-HTTPS approach that preloading provides.
 
 #### My device is HTTPS already and doesn't natively support HSTS. Can DHS mark this a false positive?
-HSTS is intended to protect users, not servers. Even if a device is HTTPS-only, for as long as HTTP remains the default protocol for browsers, users are at risk from the [insecure redirect](https://https.cio.gov/hsts/#background). A lack of HSTS means that an attacker with an on-path vantage point can redirect or attempt to spoof a government web service.
+HSTS is intended to protect users, not servers. Even if a device is HTTPS-only and doesn't respond over port 80, for as long as HTTP remains the default protocol for browsers and other HTTP clients, users are at risk from [insecure redirects](https://https.cio.gov/hsts/#background). Without HSTS, clients may still issue HTTP requests even when the server does not support them, and an attacker with an on-path vantage point can redirect or spoof these requests for malicious purposes.
 
 The best mitigation for this threat is to [preload your domains](https://https.cio.gov/hsts/#hsts-preloading).
 
