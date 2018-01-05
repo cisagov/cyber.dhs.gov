@@ -33,7 +33,7 @@ Answers to other common compliance questions appear below.
 * [What is the scope of BOD 18-01?](#what-is-the-scope-of-bod-18-01)
 * [What is a second-level domain?](#what-is-a-second-level-domain)
 * [How does the web security requirement in BOD 18-01 differ from M-15-13?](#how-does-the-web-security-requirement-in-bod-18-01-differ-from-m-15-13)
-* [My device supports HTTPS already, but doesn't natively support HSTS. Can DHS mark this as a false positive?](#my-device-supports-https-already-but-doesnt-natively-support-hsts-can-dhs-mark-this-as-a-false-positive)
+* [My device supports HTTPS already, but doesn't natively support HSTS. Can DHS mark this as a false positive?](#my-device-is-https-already-and-doesnt-natively-support-hsts-can-dhs-mark-this-a-false-positive)
 * [How should the list of second-level domains to be preloaded be shared with DHS?](#how-should-the-list-of-second-level-domains-to-be-preloaded-be-shared-with-dhs)
 * [What process should be followed in order to implement email authentication?](#what-process-should-be-followed-in-order-to-implement-email-authentication)
 * [What are the ramifications of setting subdomain policies?](#what-are-the-ramifications-of-setting-subdomain-policies)
