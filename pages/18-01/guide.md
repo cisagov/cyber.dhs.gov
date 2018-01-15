@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Compliance Guidance
-permalink: guide/
+permalink: /bod/18-01/guide/
 
 subnav:
   - text: Checklist

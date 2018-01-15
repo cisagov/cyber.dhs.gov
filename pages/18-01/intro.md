@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Introduction to Email Authentication
-permalink: intro/
+permalink: /bod/18-01/intro/
 
 subnav:
   - text: Description

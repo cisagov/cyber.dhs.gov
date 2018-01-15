@@ -1,7 +1,7 @@
 ---
 layout: base
 title: Resources
-permalink: resources/
+permalink: /bod/18-01/resources/
 
 subnav:
   - text: Learn

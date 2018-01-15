@@ -1,9 +1,9 @@
 # OpenGraph / Twitter metadata
-title: Enhance Email and Web Security
-small_title: Enhance Email & Web Security
-smallest_title: Email & Web Security
+title: DHS Binding Operational Directives
+small_title: DHS Binding Operational Directives
+smallest_title: DHS BODs
 description: Binding Operational Directive 18-01 - Enhancing Email and Web Security
-name: BOD 18-01
+name: Hosting DHS' Binding Operational Directives and implementation guidance
 
 report_url: "/assets/report/bod-18-01.pdf"
 
@@ -51,4 +51,4 @@ defaults:
 collections:
   pages:
     output: true
-    #permalink: /:path/
+    permalink: /:path/

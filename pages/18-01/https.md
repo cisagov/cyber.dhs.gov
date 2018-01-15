@@ -1,7 +1,7 @@
 ---
 layout: base
 title: HTTPS
-permalink: https/
+permalink: /bod/18-01/https/
 
 subnav:
   - text: Background
