@@ -134,13 +134,13 @@ Federal agencies must add DHS NCCIC as an aggregate report recipient. The addres
 ##### *Sending DMARC reports to more than one location*
 You are encouraged to receive your own DMARC reports in addition to sending them to DHS.
 
-When adding an additional `rua`, each address requires its own `mailto:`, and the addresses are then separated by a comma. The `rua` portion of the DMARC policy record could look like the following:
+When crafting this portion of the DMARC record, take care that a) only one `rua=` is defined, b) each address has its own `mailto:`, and c) email addresses are separated by a comma. The `rua` portion of the DMARC policy record could look like the following:
 
 >```
 rua=mailto:dmarc-reports@example.gov,mailto:reports@dmarc.cyber.dhs.gov
 ```
 
-See [RFC 7489, section 6.2](https://tools.ietf.org/html/rfc7489#section-6.2), or an example at [appendix B.2.4](https://tools.ietf.org/html/rfc7489#appendix-B.2.4).
+You should also note that while receivers must support the ability to send to at least two reporting addresses, a limit can be imposed *beyond* two. See [RFC 7489, section 6.2](https://tools.ietf.org/html/rfc7489#section-6.2), or an example at [appendix B.2.4](https://tools.ietf.org/html/rfc7489#appendix-B.2.4). 
 
 ##### *Sending DMARC reports to a different domain than your own*
 Sending DMARC reports to a domain *different than the one requesting reports* requires additional configuration at the intended recipient's DNS. In order to mitigate a denial of service threat whereby someone could request DMARC reports be sent to arbitrary domains, an intended recipient of DMARC reports must signal its willingness to accept another domain's reports with a DNS TXT record with the value `v=DMARC1` at a URI that follows this syntax:
