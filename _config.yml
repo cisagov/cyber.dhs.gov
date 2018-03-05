@@ -5,7 +5,7 @@ smallest_title: DHS BODs
 description: Binding Operational Directives from the Department of Homeland Security
 name: Binding Operational Directives and implementation guidance
 
-report_url: "/assets/report/bod-18-01.pdf"
+report_url:
 
 # GA and GitHub
 google_analytics_ua: ua-33523145-2
