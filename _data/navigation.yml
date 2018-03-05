@@ -13,15 +13,6 @@ primary:
     href: /bod/17-01/
   - text: "18-01 - Enhance Email and Web Security"
     href: /bod/18-01/
-  # - text: "Introduction to Email Authentication"
-  #   href: /18-01/intro/
-  # - text: "HTTPS"
-  #   href: /18-01/https/
-  # - text: "Compliance Guide"
-  #   href: /18-01/guide/
-  # - text: "Resources"
-  #   href: /18-01/resources/
-
 
 mobile:
   - text: "Home"
@@ -38,14 +29,3 @@ mobile:
     href: /bod/17-01/
   - text: "18-01"
     href: /bod/18-01/
-
-  # - text: BODs
-  #   href: /
-  # - text: "Intro to Email Authentication"
-  #   href: /18-01/intro/
-  # - text: "HTTPS"
-  #   href: /18-01/https/
-  # - text: "Compliance Guide"
-  #   href: /18-01/guide/
-  # - text: "Resources"
-  #   href: /18-01/resources/
