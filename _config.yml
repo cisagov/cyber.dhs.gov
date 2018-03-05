@@ -1,13 +1,11 @@
 # OpenGraph / Twitter metadata
-title: Enhance Email and Web Security
-small_title: Enhance Email & Web Security
-smallest_title: Email & Web Security
-description: Binding Operational Directive 18-01 - Enhancing Email and Web Security
-name: BOD 18-01
+title: cyber.dhs.gov
+small_title: cyber.dhs.gov
+smallest_title: cyber.dhs.gov
+description: A DHS site for binding operational directives and implementation guidance
+name: cyber.dhs.gov
 
-report_url: "/assets/report/bod-18-01.pdf"
-
-# GA and GitHub data
+# GA and GitHub
 google_analytics_ua: ua-33523145-2
 org_name: dhs-ncats
 repo_name: cyber.dhs.gov
@@ -37,6 +35,9 @@ exclude:
 
 markdown: kramdown
 
+plugins:
+  - jekyll-redirect-from
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
@@ -51,4 +52,4 @@ defaults:
 collections:
   pages:
     output: true
-    #permalink: /:path/
+    permalink: /:path/

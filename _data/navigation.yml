@@ -1,24 +1,31 @@
 primary:
-  - text: BOD 18-01
-    href: /
-  - text: "Introduction to Email Authentication"
-    href: /intro/
-  - text: "HTTPS"
-    href: /https/
-  - text: "Compliance Guide"
-    href: /guide/
-  - text: "Resources"
-    href: /resources/
-
+  - text: "Home"
+    href: /bod/
+  - text: "15-01 - Critical Vulnerability Mitigation"
+    href: /bod/15-01/
+  - text: "16-01 - Securing High Value Assets"
+    href: /bod/16-01/
+  - text: "16-02 - Threat to Network Infrastructure Devices"
+    href: /bod/16-02/
+  - text: "16-03 - 2016 Agency Cybersecurity Reporting Requirements"
+    href: /bod/16-03/
+  - text: "17-01 - Removal of Kasperky-branded Products"
+    href: /bod/17-01/
+  - text: "18-01 - Enhance Email and Web Security"
+    href: /bod/18-01/
 
 mobile:
-  - text: BOD 18-01
-    href: /
-  - text: "Intro to Email Authentication"
-    href: /intro/
-  - text: "HTTPS"
-    href: /https/
-  - text: "Compliance Guide"
-    href: /guide/
-  - text: "Resources"
-    href: /resources/
+  - text: "Home"
+    href: /bod/
+  - text: "15-01"
+    href: /bod/15-01/
+  - text: "16-01"
+    href: /bod/16-01/
+  - text: "16-02"
+    href: /bod/16-02/
+  - text: "16-03"
+    href: /bod/16-03/
+  - text: "17-01"
+    href: /bod/17-01/
+  - text: "18-01"
+    href: /bod/18-01/
