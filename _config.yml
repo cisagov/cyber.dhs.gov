@@ -1,11 +1,9 @@
 # OpenGraph / Twitter metadata
-title: DHS Binding Operational Directives
-small_title: DHS Binding Operational Directives
-smallest_title: DHS BODs
-description: Binding Operational Directives from the Department of Homeland Security
-name: Binding Operational Directives and implementation guidance
-
-report_url:
+title: cyber.dhs.gov
+small_title: cyber.dhs.gov
+smallest_title: cyber.dhs.gov
+description: A DHS site for binding operational directives and implementation guidance
+name: cyber.dhs.gov
 
 # GA and GitHub
 google_analytics_ua: ua-33523145-2
