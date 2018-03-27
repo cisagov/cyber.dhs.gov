@@ -7,7 +7,7 @@ A special thanks to the teams at [GSA](https://github.com/GSA/)/[18F](https://gi
 
 This application is optimized for deployment on 18F's [Federalist](https://federalist.18f.gov) static site hosting service.
 
-We use the [U.S. Web Design Standards](https://standards.usa.gov), a set of reusable, high quality components for modern websites. [Many other U.S. government websites use the Standards](https://github.com/18F/web-design-standards/blob/develop/WHO_IS_USING_USWDS.md#website-and-applications-that-use-the-standards).
+We use the [U.S. Web Design Standards](https://standards.usa.gov), a set of reusable, high quality components for modern websites. [Many other U.S. government websites use the Standards](https://github.com/uswds/uswds/blob/develop/docs/WHO_IS_USING_USWDS.md).
 
 
 ### Developing locally
