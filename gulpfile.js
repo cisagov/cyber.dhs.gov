@@ -28,8 +28,8 @@ gulp.task('sass', () => {
     .pipe(gulp.dest('./assets/css'));
 });
 
+gulp.task('default', ['sass', 'copy-uswds-assets']);
+
 gulp.task('watch', ['default'], () => {
   gulp.watch('./assets/sass/**/*.scss', ['sass']);
 });
-
-gulp.task('default', ['sass', 'copy-uswds-assets']);
