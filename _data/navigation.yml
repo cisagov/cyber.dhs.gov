@@ -3,7 +3,7 @@ primary:
     href: /bod/
   - text: "15-01 - Critical Vulnerability Mitigation"
     href: /bod/15-01/
-  - text: "16-01 - Securing High Value Assets"
+  - text: "16-01 - Securing High Value Assets (Revoked)"
     href: /bod/16-01/
   - text: "16-02 - Threat to Network Infrastructure Devices"
     href: /bod/16-02/
@@ -13,6 +13,8 @@ primary:
     href: /bod/17-01/
   - text: "18-01 - Enhance Email and Web Security"
     href: /bod/18-01/
+  - text: "18-02 - Securing High Value Assets"
+    href: /bod/18-02/
 
 mobile:
   - text: "Home"
@@ -29,3 +31,5 @@ mobile:
     href: /bod/17-01/
   - text: "18-01"
     href: /bod/18-01/
+  - text: "18-02"
+    href: /bod/18-02/
