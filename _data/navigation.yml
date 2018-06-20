@@ -1,35 +1,35 @@
 primary:
   - text: "Home"
     href: /bod/
-  - text: "15-01 - Critical Vulnerability Mitigation"
-    href: /bod/15-01/
-  - text: "16-01 - Securing High Value Assets (Revoked)"
-    href: /bod/16-01/
-  - text: "16-02 - Threat to Network Infrastructure Devices"
-    href: /bod/16-02/
-  - text: "16-03 - 2016 Agency Cybersecurity Reporting Requirements"
-    href: /bod/16-03/
-  - text: "17-01 - Removal of Kaspersky-branded Products"
-    href: /bod/17-01/
-  - text: "18-01 - Enhance Email and Web Security"
-    href: /bod/18-01/
   - text: "18-02 - Securing High Value Assets"
     href: /bod/18-02/
+  - text: "18-01 - Enhance Email and Web Security"
+    href: /bod/18-01/
+  - text: "17-01 - Removal of Kaspersky-branded Products"
+    href: /bod/17-01/
+  - text: "16-03 - 2016 Agency Cybersecurity Reporting Requirements"
+    href: /bod/16-03/
+  - text: "16-02 - Threat to Network Infrastructure Devices"
+    href: /bod/16-02/
+  - text: "16-01 - Securing High Value Assets (Revoked)"
+    href: /bod/16-01/
+  - text: "15-01 - Critical Vulnerability Mitigation"
+    href: /bod/15-01/
 
 mobile:
   - text: "Home"
     href: /bod/
-  - text: "15-01"
-    href: /bod/15-01/
-  - text: "16-01"
-    href: /bod/16-01/
-  - text: "16-02"
-    href: /bod/16-02/
-  - text: "16-03"
-    href: /bod/16-03/
-  - text: "17-01"
-    href: /bod/17-01/
-  - text: "18-01"
-    href: /bod/18-01/
   - text: "18-02"
     href: /bod/18-02/
+  - text: "18-01"
+    href: /bod/18-01/
+  - text: "17-01"
+    href: /bod/17-01/
+  - text: "16-03"
+    href: /bod/16-03/
+  - text: "16-02"
+    href: /bod/16-02/
+  - text: "16-01"
+    href: /bod/16-01/
+  - text: "15-01"
+    href: /bod/15-01/
