@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.5.1
+
+before_install:
+  - gem update --system
+
+script: bundle exec jekyll build
+  
+# Caching bundler gem packages will speed up the build
+cache: bundler
