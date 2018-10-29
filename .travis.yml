@@ -1,11 +1,11 @@
 language: ruby
 rvm:
-  - 2.5.1
+  - 2.4.1
 
 before_install:
   - gem update --system
 
-script: bundle exec jekyll build
+script: ./travis_scripts/build.sh
   
 # Caching bundler gem packages will speed up the build
 cache: bundler
