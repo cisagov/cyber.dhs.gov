@@ -3,6 +3,17 @@ rvm:
   - 2.4.1
 
 script: ./travis_scripts/build.sh
-  
+
+env:
+  global:
+    # This speeds up the installation of html-proofer
+    - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+
+addons:
+  apt:
+    packages:
+      # We need this to check https links
+      - libcurl4-openssl-dev
+
 # Caching bundler gem packages will speed up the build
 cache: bundler
