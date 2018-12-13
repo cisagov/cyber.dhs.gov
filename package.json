@@ -4,10 +4,12 @@
     "federalist": "npm run build"
   },
   "dependencies": {
+    "cached-path-relative": "^1.0.2",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.4",
     "gulp-util": "^3.0.8",
+    "npm": "^6.5.0",
     "uswds": "^1.6.9"
   }
 }
