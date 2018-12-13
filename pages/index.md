@@ -13,10 +13,10 @@ A binding operational directive is a [compulsory direction](https://www.congress
 
 Binding operational directives [do not apply](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf#page=5) to statutorily defined "National Security Systems" nor to certain systems operated by the Department of Defense or the Intelligence Community.
 
-* [18-02](https://cyber.dhs.gov/bod/18-02/) - Securing High Value Assets
-* [18-01](https://cyber.dhs.gov/bod/18-01/) - Enhance Email and Web Security
-* [17-01](https://cyber.dhs.gov/bod/17-01/) - Removal of Kaspersky-branded Products
-* [16-03](https://cyber.dhs.gov/bod/16-03/) - 2016 Agency Cybersecurity Reporting Requirements
-* [16-02](https://cyber.dhs.gov/bod/16-02/) - Threat to Network Infrastructure Devices
-* [16-01](https://cyber.dhs.gov/bod/16-01/) - Securing High Value Assets (Revoked)
-* [15-01](https://cyber.dhs.gov/bod/15-01/) - Critical Vulnerability Mitigation
+* [18-02]({{ site.baseurl }}/bod/18-02/) - Securing High Value Assets
+* [18-01]({{ site.baseurl }}/bod/18-01/) - Enhance Email and Web Security
+* [17-01]({{ site.baseurl }}/bod/17-01/) - Removal of Kaspersky-branded Products
+* [16-03]({{ site.baseurl }}/bod/16-03/) - 2016 Agency Cybersecurity Reporting Requirements
+* [16-02]({{ site.baseurl }}/bod/16-02/) - Threat to Network Infrastructure Devices
+* [16-01]({{ site.baseurl }}/bod/16-01/) - Securing High Value Assets (Revoked)
+* [15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation
