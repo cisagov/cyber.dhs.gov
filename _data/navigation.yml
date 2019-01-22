@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
-    href: /bod/
+    href: /directives/
+  - text: "ED 19-01 - Mitigate DNS Infrastructure Tampering"
+    href: /ed/19-01/
   - text: "18-02 - Securing High Value Assets"
     href: /bod/18-02/
   - text: "18-01 - Enhance Email and Web Security"
@@ -18,7 +20,9 @@ primary:
 
 mobile:
   - text: "Home"
-    href: /bod/
+    href: /directives/
+  - text: "ED-19-01"
+    href: /ed/19-01/
   - text: "18-02"
     href: /bod/18-02/
   - text: "18-01"
