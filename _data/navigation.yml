@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "Blog"
+    href: /blog/
   - text: "ED 19-01 - Mitigate DNS Infrastructure Tampering"
     href: /ed/19-01/
   - text: "18-02 - Securing High Value Assets"
@@ -21,6 +23,8 @@ primary:
 mobile:
   - text: "Home"
     href: /directives/
+  - text: "Blog"
+    href: /blog/
   - text: "ED-19-01"
     href: /ed/19-01/
   - text: "18-02"
