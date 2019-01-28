@@ -5,11 +5,11 @@ permalink: /blog/
 
 subnav:
   - text: January 24, 2019
-    href: "#january-24-2019"
+    href: "#why-cisa-issued-our-first-emergency-directive"
 ---
 ## Why CISA issued our first Emergency Directive
 _**By Christopher Krebs, Director**_
-###### January 24, 2019
+##### January 24, 2019
 
 On Tuesday January 22nd, I released [Emergency Directive 19-01]({{ site.baseurl }}/ed/19-01), *Mitigate DNS Infrastructure Tampering*, directing Federal civilian agencies to take a series of immediate actions in response to a global Domain Name System (DNS) hijacking campaign. This is the first Emergency Directive issued by the Cybersecurity and Infrastructure Security Agency (CISA) under authorities granted by Congress in the Cybersecurity Act of 2015, and we took this action after carefully considering the current and potential risk posed to Federal agencies.
 
