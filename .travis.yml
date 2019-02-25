@@ -2,6 +2,10 @@ language: ruby
 rvm:
   - 2.4.1
 
+before_install:
+  - gem update --system
+  - gem install bundler
+
 script: ./travis_scripts/build.sh
 
 env:
