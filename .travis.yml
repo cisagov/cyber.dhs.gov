@@ -1,6 +1,11 @@
 language: ruby
 rvm:
-  - 2.4.1
+  - 2.6.1
+
+before_install:
+  # Federalist requires bundler version 1
+  - gem uninstall -v '>= 2' -i $(rvm gemdir)@global -ax bundler || true
+  - gem install bundler -v '< 2'
 
 script: ./travis_scripts/build.sh
 
