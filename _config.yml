@@ -7,7 +7,7 @@ name: cyber.dhs.gov
 
 # GA and GitHub
 google_analytics_ua: ua-33523145-2
-org_name: dhs-ncats
+org_name: cisagov
 repo_name: cyber.dhs.gov
 branch: master
 
