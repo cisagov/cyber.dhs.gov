@@ -1,6 +1,9 @@
 language: ruby
-rvm:
-  - 2.6.1
+
+matrix:
+  include:
+    - rvm: 2.6.1
+      dist: xenial
 
 before_install:
   - gem update --system
