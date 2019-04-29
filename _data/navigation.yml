@@ -3,7 +3,9 @@ primary:
     href: /directives/
   - text: "Blog"
     href: /blog/
-  - text: "ED 19-01 - Mitigate DNS Infrastructure Tampering"
+  - text: "19-02 - Vulnerability Remediation Requirements"
+    href: /bod/19-02/
+  - text: "19-01 - Mitigate DNS Infrastructure Tampering"
     href: /ed/19-01/
   - text: "18-02 - Securing High Value Assets"
     href: /bod/18-02/
@@ -17,7 +19,7 @@ primary:
     href: /bod/16-02/
   - text: "16-01 - Securing High Value Assets (Revoked)"
     href: /bod/16-01/
-  - text: "15-01 - Critical Vulnerability Mitigation"
+  - text: "15-01 - Critical Vulnerability Mitigation (Revoked)"
     href: /bod/15-01/
 
 mobile:
@@ -25,7 +27,9 @@ mobile:
     href: /directives/
   - text: "Blog"
     href: /blog/
-  - text: "ED-19-01"
+  - text: "19-02"
+    href: /bod/19-02
+  - text: "19-01"
     href: /ed/19-01/
   - text: "18-02"
     href: /bod/18-02/
