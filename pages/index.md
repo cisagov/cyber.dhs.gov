@@ -21,4 +21,4 @@ The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) 
 * [BOD 16-03]({{ site.baseurl }}/bod/16-03/) - 2016 Agency Cybersecurity Reporting Requirements
 * [BOD 16-02]({{ site.baseurl }}/bod/16-02/) - Threat to Network Infrastructure Devices
 * [BOD 16-01]({{ site.baseurl }}/bod/16-01/) - Securing High Value Assets (Revoked)
-* [BOD 15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation
+* [BOD 15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation (Revoked)
