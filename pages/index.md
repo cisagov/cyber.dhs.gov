@@ -14,7 +14,7 @@ The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) 
 * [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
 
 ## Binding Operational Directives
-
+* [BOD 19-02]({{ site.baseurl }}/bod/19-02/) - Vulnerability Remediation Requirements for Internet-Accessible Systems
 * [BOD 18-02]({{ site.baseurl }}/bod/18-02/) - Securing High Value Assets
 * [BOD 18-01]({{ site.baseurl }}/bod/18-01/) - Enhance Email and Web Security
 * [BOD 17-01]({{ site.baseurl }}/bod/17-01/) - Removal of Kaspersky-branded Products
