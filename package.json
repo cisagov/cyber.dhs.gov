@@ -1,7 +1,9 @@
 {
   "scripts": {
     "build": "gulp",
-    "federalist": "npm run build"
+    "federalist": "npm run build",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "cached-path-relative": "^1.0.2",
@@ -11,6 +13,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-util": "^3.0.8",
     "npm": "^6.9.0",
-    "uswds": "^1.6.9"
-  }
+    "uswds": "^1.6.9",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
