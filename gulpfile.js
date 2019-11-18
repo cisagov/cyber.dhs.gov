@@ -2,12 +2,9 @@
 
 const path = require('path');
 const gulp = require('gulp');
-const gutil = require('gulp-util');
 const sass = require('gulp-sass');
 const sourcemaps = require('gulp-sourcemaps');
-const exec = require('child_process').exec;
 
-const PORT = process.env.PORT || '8000';
 const USWDS_DIST = 'node_modules/uswds/dist';
 const USWDS_DIST_DIR = path.join(__dirname, ...USWDS_DIST.split('/'));
 

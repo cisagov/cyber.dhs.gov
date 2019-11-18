@@ -2,12 +2,12 @@
 title: cyber.dhs.gov
 small_title: cyber.dhs.gov
 smallest_title: cyber.dhs.gov
-description: A DHS site for binding operational directives and implementation guidance
+description: A site for cybersecurity directives and implementation guidance, from the Cybersecurity and Infrastructure Security Agency.
 name: cyber.dhs.gov
 
 # GA and GitHub
 google_analytics_ua: ua-33523145-2
-org_name: dhs-ncats
+org_name: cisagov
 repo_name: cyber.dhs.gov
 branch: master
 

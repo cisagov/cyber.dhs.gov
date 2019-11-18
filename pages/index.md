@@ -1,22 +1,24 @@
 ---
 layout: base
-title: Binding Operational Directives
-permalink: /bod/
+title: Cybersecurity Directives
+permalink: /directives/
 redirect_from:
   - /
+  - /bod/
 ---
 
-The Department of Homeland Security (DHS) develops and oversees the implementation of binding operational directives pursuant to the [Federal
-Information Security Modernization Act of 2014](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf#page=3) (FISMA).
+The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of certain federal agencies in the civilian executive branch.
 
-A binding operational directive is a [compulsory direction](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf#page=2) to federal executive branch departments and agencies for purposes of safeguarding federal information and information systems from a known or reasonably suspected information security threat, vulnerability, or risk. FISMA [requires](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf#page=6) federal agencies to comply with DHS-developed directives.
+## Emergency Directives
 
-Binding operational directives [do not apply](https://www.congress.gov/113/plaws/publ283/PLAW-113publ283.pdf#page=5) to statutorily defined "National Security Systems" nor to certain systems operated by the Department of Defense or the Intelligence Community.
+* [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
 
-* [18-02](https://cyber.dhs.gov/bod/18-02/) - Securing High Value Assets
-* [18-01](https://cyber.dhs.gov/bod/18-01/) - Enhance Email and Web Security
-* [17-01](https://cyber.dhs.gov/bod/17-01/) - Removal of Kaspersky-branded Products
-* [16-03](https://cyber.dhs.gov/bod/16-03/) - 2016 Agency Cybersecurity Reporting Requirements
-* [16-02](https://cyber.dhs.gov/bod/16-02/) - Threat to Network Infrastructure Devices
-* [16-01](https://cyber.dhs.gov/bod/16-01/) - Securing High Value Assets (Revoked)
-* [15-01](https://cyber.dhs.gov/bod/15-01/) - Critical Vulnerability Mitigation
+## Binding Operational Directives
+* [BOD 19-02]({{ site.baseurl }}/bod/19-02/) - Vulnerability Remediation Requirements for Internet-Accessible Systems
+* [BOD 18-02]({{ site.baseurl }}/bod/18-02/) - Securing High Value Assets
+* [BOD 18-01]({{ site.baseurl }}/bod/18-01/) - Enhance Email and Web Security
+* [BOD 17-01]({{ site.baseurl }}/bod/17-01/) - Removal of Kaspersky-branded Products
+* [BOD 16-03]({{ site.baseurl }}/bod/16-03/) - 2016 Agency Cybersecurity Reporting Requirements
+* [BOD 16-02]({{ site.baseurl }}/bod/16-02/) - Threat to Network Infrastructure Devices
+* [BOD 16-01]({{ site.baseurl }}/bod/16-01/) - Securing High Value Assets (Revoked)
+* [BOD 15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation (Revoked)
