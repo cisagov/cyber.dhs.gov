@@ -26,6 +26,16 @@ patch:
         patched: '2019-07-12T00:18:31.678Z'
     - snyk > @snyk/dep-graph > graphlib > lodash:
         patched: '2019-07-12T00:18:31.678Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > lodash:
+        patched: '2019-10-04T11:47:06.366Z'
+    - snyk > snyk-nuget-plugin > dotnet-deps-parser > lodash:
+        patched: '2019-10-04T11:47:06.366Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > lodash:
+        patched: '2019-10-04T11:47:06.366Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-04T11:47:06.366Z'
+    - snyk > @snyk/snyk-cocoapods-plugin > @snyk/cocoapods-lockfile-parser > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-10-04T11:47:06.366Z'
   SNYK-JS-HTTPSPROXYAGENT-469131:
     - npm > libnpmteam > npm-registry-fetch > make-fetch-happen > https-proxy-agent:
         patched: '2019-10-03T22:17:12.581Z'
