@@ -1,8 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
-  - text: "Blog"
-    href: /blog/
+  - text: "20-01 - Vulnerability Disclosure Policies (draft)"
+    href: /bod/20-01/
   - text: "19-02 - Vulnerability Remediation Requirements"
     href: /bod/19-02/
   - text: "19-01 - Mitigate DNS Infrastructure Tampering"
@@ -25,8 +25,8 @@ primary:
 mobile:
   - text: "Home"
     href: /directives/
-  - text: "Blog"
-    href: /blog/
+  - text: "20-01 - Vulnerability Disclosure Policies"
+    href: /bod/20-01/
   - text: "19-02"
     href: /bod/19-02
   - text: "19-01"
