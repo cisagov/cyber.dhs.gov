@@ -3,15 +3,6 @@ layout: base
 title: Vulnerability Disclosure Policy Template
 permalink: /bod/20-01/vdp-template
 
-subnav:
-  - text: Background
-    href: "#background"
-  - text: Required Actions
-    href: "#required-actions"
-  - text: Guidance
-    href: "#implementation-guide"
-  - text: FAQ
-    href: "#frequently-asked-questions"
 ---
 This page contains a web-friendly version of the Cybersecurity and Infrastructure Security Agency's Binding Operational Directive 20-01 (draft) VDP template. See also the [.docx template]({{ site.baseurl }}/assets/report/bod-20-01-vdp-template.docx).
 
