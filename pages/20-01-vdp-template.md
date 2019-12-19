@@ -117,6 +117,10 @@ will work with you to understand and resolve the issue quickly, and
 *AGENCY NAME* will not recommend or pursue legal action related to your
 research.
 
+The Office of General Counsel, Office of Inspector General, and all
+other appropriate legal authorities at *AGENCY NAME* have reviewed
+and support this policy's commitments.
+
 ### Scope
 
 <span style="color:red">*This section defines which internet-accessible systems or services are
