@@ -117,7 +117,7 @@ will work with you to understand and resolve the issue quickly, and
 *AGENCY NAME* will not recommend or pursue legal action related to your
 research.
 
-The Office of General Counsel, Office of Inspector General, and all
+The Office of General Counsel (OGC), Office of Inspector General (OIG), and all
 other appropriate legal authorities at *AGENCY NAME* have reviewed
 and support this policy's commitments.
 
