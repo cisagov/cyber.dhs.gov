@@ -7,7 +7,13 @@ redirect_from:
   - /bod/
 ---
 
-The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of certain federal agencies in the civilian executive branch.
+The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of [certain federal agencies]({{ site.baseurl }}/agencies) in the civilian Executive Branch.
+
+## Emergency Directives
+
+* [ED 20-02]({{ site.baseurl }}/ed/20-02/) - Mitigate Windows Vulnerabilities from January 2020 Patch
+Tuesday
+* [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
 
 ## Binding Operational Directives
 * [BOD 20-01]({{ site.baseurl }}/bod/20-01/) - Develop and Publish a Vulnerability Disclosure Policy (draft)
@@ -19,7 +25,3 @@ The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) 
 * [BOD 16-02]({{ site.baseurl }}/bod/16-02/) - Threat to Network Infrastructure Devices
 * [BOD 16-01]({{ site.baseurl }}/bod/16-01/) - Securing High Value Assets (Revoked)
 * [BOD 15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation (Revoked)
-
-## Emergency Directives
-
-* [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
