@@ -85,7 +85,6 @@ The following civilian Executive Branch agencies fall under CISA's [authorities]
 | Office of Navajo and Hopi Indian Relocation | ONHIR
 | Office of Personnel Management| OPM
 | Office of Special Counsel | OSC
-| Overseas Private Investment Corporation | OPIC
 | Peace Corps | PC
 | Pension Benefit Guaranty Corporation | PBGC
 | Postal Regulatory Commission| PRC
@@ -103,9 +102,10 @@ The following civilian Executive Branch agencies fall under CISA's [authorities]
 | United States AbilityOne Commission | USAC
 | United States Access Board| USAB
 | United States Agency for Global Media | USAGM
-| United States Agency for International Development (USAID) | USAID
+| United States Agency for International Development | USAID
 | United States Commission on Civil Rights| USCCR
 | United States Department of Agriculture | USDA
 | United States Interagency Council on Homelessness | USICH
-|United States International Trade Commission| USITC
-|United States Trade and Development Agency| USTDA
+| United States International Development Finance Corporation (formerly Overseas Private Investment Corporation) | DFC
+| United States International Trade Commission| USITC
+| United States Trade and Development Agency| USTDA
