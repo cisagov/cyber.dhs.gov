@@ -1,4 +1,5 @@
 {
+  "name": "cyber.dhs.gov",
   "scripts": {
     "build": "gulp",
     "federalist": "npm run build",
@@ -13,8 +14,8 @@
     "gulp-sourcemaps": "^2.6.5",
     "gulp-util": "^3.0.8",
     "npm": "^6.13.4",
-    "uswds": "^2.6.0",
-    "snyk": "^1.258.2"
+    "snyk": "^1.348.1",
+    "uswds": "^2.7.1"
   },
   "snyk": true
 }
