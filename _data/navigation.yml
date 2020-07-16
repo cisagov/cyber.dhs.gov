@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "20-03 - Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday"
+    href: /ed/20-03/
   - text: "20-02 - Mitigate Windows Vulnerabilities from January 2020 Patch Tuesday"
     href: /ed/20-02/
   - text: "20-01 - Vulnerability Disclosure Policies (draft)"
@@ -27,6 +29,8 @@ primary:
 mobile:
   - text: "Home"
     href: /directives/
+  - text: "20-03"
+    href: /ed/20-03/
   - text: "20-02"
     href: /ed/20-02/
   - text: "20-01"
