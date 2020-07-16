@@ -10,7 +10,7 @@ redirect_from:
 The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of [certain federal agencies]({{ site.baseurl }}/agencies) in the civilian Executive Branch.
 
 ## Emergency Directives
-* [ED 20-03]({{ site.baseurl }}/ed/20-03/) - Mitigate Windows DNS Server Remote Code Execution Vulnerability from July 2020 Patch Tuesday
+* [ED 20-03]({{ site.baseurl }}/ed/20-03/) - Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday
 * [ED 20-02]({{ site.baseurl }}/ed/20-02/) - Mitigate Windows Vulnerabilities from January 2020 Patch Tuesday
 * [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
 
