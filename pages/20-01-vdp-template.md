@@ -89,10 +89,7 @@ This policy applies to the following systems and services:
 
     -   <span style="color:red">`dormouse.agency-service.gov`
 
-    -   <span style="color:red">Any other subdomain of `agency-service.gov` and all customer
-        applications are excluded from this policy
-        (`*.app.agency-service.gov` is specifically excluded, except
-        for `*.service-proxy.app.agency-service.gov`.)
+    -   <span style="color:red">Any other subdomain of `agency-service.gov` and all customer applications are excluded from this policy (`*.app.agency-service.gov` is specifically excluded, except for `*.service-proxy.app.agency-service.gov`.)
 
 -   <span style="color:red">Source code at [https://github.com/agency-example/repo](https://github.com/agency-example/repo)</span>
 
