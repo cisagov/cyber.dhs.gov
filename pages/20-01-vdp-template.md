@@ -8,16 +8,15 @@ This page contains a web-friendly version of the Cybersecurity and Infrastructur
 
 <span style="color:red">*This template is intended to assist your agency in the creation of a vulnerability disclosure policy (VDP) that aligns with [Binding Operational Directive (BOD) 20-01](https://cyber.dhs.gov/bod/20-01/).*</span>
 
--   <span style="color:red"> *Instructions for how to use the template are provided throughout the document in red and italic text and should be removed from your published policy.*</span>
+-   <span style="color:red">*Instructions for how to use the template are provided throughout the document in red and italic text and should be removed from your published policy.*</span>
 
--   <span style="color:red"> *You are encouraged to modify the template to suit your needs, but your policy must address all actions required by the Directive. It is **strongly recommended** that you use the template's language for the Authorization section.*</span>
+-   <span style="color:red">*You are encouraged to modify the template to suit your needs, but your policy must address all actions required by the Directive. It is **strongly recommended** that you use the template's language for the Authorization section.*</span>
 
--   <span style="color:red"> *CISA recommends that you review the [implementation guidance](https://cyber.dhs.gov/bod/20-01/#compliance-guide) maintained in support of this directive, particularly the section [Consider prior art](https://cyber.dhs.gov/bod/20-01/#consider-prior-art).*</span>
+-   <span style="color:red">*CISA recommends that you review the [implementation guidance](https://cyber.dhs.gov/bod/20-01/#compliance-guide) maintained in support of this directive, particularly the section [Consider prior art](https://cyber.dhs.gov/bod/20-01/#consider-prior-art).*</span>
 
--  <span style="color:red"> *Your policy must be published as a web page and you must specify its location in your agency's security.txt.*</span>
+-  <span style="color:red">*Your policy must be published as a web page and you must specify its location in your agency's security.txt.*</span>
 
-<span style="color:red"> *The primary sources for this template were the General Services Administration's [Technology Transformation Services' VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/), the [Department of Defense's VDP](https://hackerone.com/deptofdefense), and a VDP template from a 2016 working group of the [National Telecommunications and Information Administration](https://www.ntia.doc.gov/files/ntia/publications/ntia_vuln_disclosure_early_stage_template.pdf). It has been written to align with the Department of Justice's [Framework
-for a Vulnerability Disclosure Program for Online Systems](https://www.justice.gov/criminal-ccips/page/file/983996/download).*
+<span style="color:red">*The primary sources for this template were the General Services Administration's [Technology Transformation Services' VDP](https://18f.gsa.gov/vulnerability-disclosure-policy/), the [Department of Defense's VDP](https://hackerone.com/deptofdefense), and a VDP template from a 2016 working group of the [National Telecommunications and Information Administration](https://www.ntia.doc.gov/files/ntia/publications/ntia_vuln_disclosure_early_stage_template.pdf). It has been written to align with the Department of Justice's [Framework for a Vulnerability Disclosure Program for Online Systems](https://www.justice.gov/criminal-ccips/page/file/983996/download).*
 </span>
 
 ## Vulnerability Disclosure Policy
