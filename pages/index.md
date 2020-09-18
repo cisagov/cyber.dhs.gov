@@ -21,7 +21,7 @@ The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) 
 * [BOD 15-01]({{ site.baseurl }}/bod/15-01/) - Critical Vulnerability Mitigation (Revoked)
 
 ## Emergency Directives
+* [ED 20-04]({{ site.baseurl }}/ed/20-04/) - Mitigate Netlogon Elevation of Privilege Vulnerability from August 2020 Patch Tuesday
 * [ED 20-03]({{ site.baseurl }}/ed/20-03/) - Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday
-* [ED 20-02]({{ site.baseurl }}/ed/20-02/) - Mitigate Windows Vulnerabilities from January 2020 Patch
-Tuesday
+* [ED 20-02]({{ site.baseurl }}/ed/20-02/) - Mitigate Windows Vulnerabilities from January 2020 Patch Tuesday
 * [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
