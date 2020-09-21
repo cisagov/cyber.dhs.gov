@@ -1,6 +1,6 @@
 ## CVE 2020-1472 Patch Validation Script
 
-_Assumption: WinRM is enabled between Domain Controllers._
+_Assumption: WinRM is enabled between domain controllers._
 
 ### Required permissions:
   * If child domains are present: Enterprise admin
