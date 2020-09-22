@@ -68,7 +68,6 @@ The following civilian Executive Branch agencies fall under CISA's [authorities]
 | National Aeronautics and Space Administration | NASA
 | National Archives and Records Administration| NARA
 | National Capital Planning Commission| NCPC
-| National Commission on Military, National, and Public Service  | NCMNPS
 | National Council on Disability| NCD
 | National Credit Union Administration| NCUA
 | National Endowment for the Arts | NEA
