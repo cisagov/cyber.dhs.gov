@@ -51,7 +51,7 @@ Under this policy, "research" means activities in which you:
 
 -   Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data.
 
--   Only use exploits to the extent necessary to confirm a vulnerability's presence. Do not use an exploit to compromise or exfiltrate data, establish command line access and/or persistence, or use the exploit to pivot to other systems.
+-   Only use exploits to the extent necessary to confirm a vulnerability's presence. Do not use an exploit to compromise or exfiltrate data, establish persistent command line access, or use the exploit to pivot to other systems.
 
 -   Provide us a reasonable amount of time to resolve the issue before you disclose it publicly.
 
