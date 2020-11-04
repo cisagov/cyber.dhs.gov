@@ -8,7 +8,7 @@ This page contains a web-friendly version of the Cybersecurity and Infrastructur
 
 <span style="color:red">*This template is intended to assist your agency in the creation of a vulnerability disclosure policy (VDP) that aligns with [Binding Operational Directive (BOD) 20-01](https://cyber.dhs.gov/bod/20-01/).*</span>
 
--   <span style="color:red">*Instructions for how to use the template are provided throughout the document in red and italic text and should be removed from your published policy.*</span>
+-   <span style="color:red">*Instructions for how to use the template and some example text are provided throughout the document in red and italic text. These should be changed and removed from your published policy.*</span>
 
 -   <span style="color:red">*You are encouraged to modify the template to suit your needs, but your policy must address all actions required by the Directive. It is **strongly recommended** that you use the template's language for the Authorization section.*</span>
 
