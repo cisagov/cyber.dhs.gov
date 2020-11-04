@@ -8,7 +8,7 @@ This page contains a web-friendly version of the Cybersecurity and Infrastructur
 
 <span style="color:red">*This template is intended to assist your agency in the creation of a vulnerability disclosure policy (VDP) that aligns with [Binding Operational Directive (BOD) 20-01](https://cyber.dhs.gov/bod/20-01/).*</span>
 
--   <span style="color:red">*Instructions for how to use the template are provided throughout the document in red and italic text and should be removed from your published policy.*</span>
+-   <span style="color:red">*Instructions for how to use the template and some example text are provided throughout the document in red and italic text. These should be changed and removed from your published policy.*</span>
 
 -   <span style="color:red">*You are encouraged to modify the template to suit your needs, but your policy must address all actions required by the Directive. It is **strongly recommended** that you use the template's language for the Authorization section.*</span>
 
@@ -101,7 +101,7 @@ This policy applies to the following systems and services:
 
 -   <span style="color:red">Source code at [https://github.com/agency-example/repo](https://github.com/agency-example/repo)</span>
 
-**Any service not expressly listed above, such as any connected services, are excluded from scope** and are not authorized for testing. Additionally, vulnerabilities found in systems from our vendors fall outside of this policy's scope and should be reported directly to the vendor according to their disclosure policy (if any). If you aren't sure whether a system is in scope or not, contact us at security@agency.gov before starting your research (or at the security contact for the system's domain name listed in the [.gov WHOIS](https://domains.dotgov.gov/dotgov-web/registration/whois.xhtml)).
+**Any service not expressly listed above, such as any connected services, are excluded from scope** and are not authorized for testing. Additionally, vulnerabilities found in systems from our vendors fall outside of this policy's scope and should be reported directly to the vendor according to their disclosure policy (if any). If you aren't sure whether a system is in scope or not, contact us at <span style="color:red">security@agency.gov before starting your research (or at the security contact for the system's domain name listed in the [.gov WHOIS](https://domains.dotgov.gov/dotgov-web/registration/whois.xhtml))</span>.
 
 Though we develop and maintain other internet-accessible systems or services, we ask that *active research and testing* only be conducted on the systems and services covered by the scope of this document. If there is a particular system not in scope that you think merits testing, please contact us to discuss it first. We will increase the scope of this policy over time.
 
