@@ -11,7 +11,7 @@
     "extend": "^3.0.2",
     "gulp": "^4.0.0",
     "gulp-sass": "^4.0.2",
-    "gulp-sourcemaps": "^2.6.5",
+    "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
     "npm": "^6.14.8",
     "snyk": "^1.424.4",
