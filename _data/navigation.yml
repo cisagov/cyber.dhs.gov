@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "21-01 - Mitigate SolarWinds Orion Code Compromise"
+    href: /ed/21-01/
   - text: "20-04 - Mitigate Netlogon Elevation of Privilege Vulnerability from August 2020 Patch Tuesday"
     href: /ed/20-04/
   - text: "20-03 - Mitigate Windows DNS Server Vulnerability from July 2020 Patch Tuesday"
@@ -31,6 +33,8 @@ primary:
 mobile:
   - text: "Home"
     href: /directives/
+  - text: "21-01"
+    href: /ed/21-01/
   - text: "20-04"
     href: /ed/20-04/
   - text: "20-03"
