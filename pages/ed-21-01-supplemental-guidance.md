@@ -4,7 +4,7 @@ title: Emergency Directive 21-01 Older Supplemental Guidance
 permalink: /ed/21-01/older-supplemental-guidance
 
 ---
-Below are previous versions of supplemental guidance that have now been superseded. See {{ site.baseurl }}/ed/21-01/ for the latest guidance.
+Below are previous versions of supplemental guidance that have now been superseded. See [ED 21-01]({{ site.baseurl }}/ed/21-01) for the latest guidance.
 
 #### Supplemental Guidance v2
 Original Release Date: _December 30, 2020_
