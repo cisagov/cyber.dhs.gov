@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "21-02 - Mitigate Microsoft Exchange On-Premises Product Vulnerabilities"
+    href: /ed/21-02/
   - text: "21-01 - Mitigate SolarWinds Orion Code Compromise"
     href: /ed/21-01/
   - text: "20-04 - Mitigate Netlogon Elevation of Privilege Vulnerability from August 2020 Patch Tuesday"
@@ -33,6 +35,8 @@ primary:
 mobile:
   - text: "Home"
     href: /directives/
+  - text: "21-02"
+    href: /ed/21-02/
   - text: "21-01"
     href: /ed/21-01/
   - text: "20-04"
