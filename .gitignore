@@ -8,3 +8,4 @@ _site
 todo.txt
 .jekyll-metadata
 *.pyc
+.jekyll-cache/
