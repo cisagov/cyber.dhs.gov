@@ -105,6 +105,7 @@ The following civilian Executive Branch agencies fall under CISA's [authorities]
 | United States Agency for International Development | USAID
 | United States Commission on Civil Rights| USCCR
 | United States Department of Agriculture | USDA
+| United States Institute of Peace | USIP
 | United States Interagency Council on Homelessness | USICH
 | United States International Development Finance Corporation (formerly Overseas Private Investment Corporation) | DFC
 | United States International Trade Commission| USITC
