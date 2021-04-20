@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "21-03 - Mitigate Pulse Connect Secure Product Vulnerabilities"
+    href: /ed/21-03/
   - text: "21-02 - Mitigate Microsoft Exchange On-Premises Product Vulnerabilities"
     href: /ed/21-02/
   - text: "21-01 - Mitigate SolarWinds Orion Code Compromise"
