@@ -10,6 +10,7 @@ redirect_from:
 The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of [certain federal agencies]({{ site.baseurl }}/agencies) in the civilian Executive Branch.
 
 ## Emergency Directives
+* [ED 21-04]({{ site.baseurl }}/ed/21-04/) - Mitigate Windows Print Spooler Service Vulnerability
 * [ED 21-03]({{ site.baseurl }}/ed/21-03/) - Mitigate Pulse Connect Secure Product Vulnerabilities 
 * [ED 21-02]({{ site.baseurl }}/ed/21-02/) - Mitigate Microsoft Exchange On-Premises Product Vulnerabilities
 * [ED 21-01]({{ site.baseurl }}/ed/21-01/) - Mitigate SolarWinds Orion Code Compromise
