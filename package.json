@@ -13,8 +13,8 @@
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "npm": "^7.6.1",
-    "snyk": "^1.476.0",
+    "npm": "^7.20.5",
+    "snyk": "^1.672.0",
     "uswds": "^2.10.2"
   },
   "snyk": true
