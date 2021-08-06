@@ -38,6 +38,9 @@ markdown: kramdown
 plugins:
   - jekyll-redirect-from
 
+gems:
+  - jekyll-feed
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
