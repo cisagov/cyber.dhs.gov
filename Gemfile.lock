@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     colorator (1.1.0)
     concurrent-ruby (1.1.7)
@@ -13,7 +13,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.0)
     forwardable-extended (2.6.0)
-    html-proofer (3.18.8)
+    html-proofer (3.19.2)
       addressable (~> 2.3)
       mercenary (~> 0.3)
       nokogumbo (~> 2.0)
@@ -39,6 +39,8 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
+    jekyll-feed (0.15.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-redirect-from (0.16.0)
       jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (2.1.0)
@@ -55,7 +57,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
-    nokogiri (1.11.1)
+    nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     nokogumbo (2.0.4)
@@ -69,7 +71,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    rexml (3.2.4)
+    rexml (3.2.5)
     rouge (3.26.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
@@ -87,7 +89,8 @@ PLATFORMS
 DEPENDENCIES
   html-proofer (>= 3.14.1)
   jekyll
+  jekyll-feed
   jekyll-redirect-from
 
 BUNDLED WITH
-   2.1.4
+   2.2.25
