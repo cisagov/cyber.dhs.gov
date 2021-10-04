@@ -75,7 +75,6 @@ The following civilian Executive Branch agencies fall under CISA's [authorities]
 | National Labor Relations Board| NLRB
 | National Mediation Board| NMB
 | National Science Foundation | NSF
-| National Security Commission on Artificial Intelligence | NSCAI
 | National Transportation Safety Board| NTSB
 | Nuclear Regulatory Commission | NRC
 | Nuclear Waste Technical Review Board| NWTRB
