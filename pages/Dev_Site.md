@@ -9,7 +9,7 @@ subnav:
   - text: Vulnerability Repository
     href: "#vulernability-repository"
 
-Month Day, Year
+October Day, Year
 ## Managing Unacceptable Risk Vulnerabilities Repository 
 
 This page contains the Vulnerability Repository of the Cybersecurity and Infrastructure Security Agency's [Binding Operational Directive 22-01]({{ site.baseurl }}/assets/report/bod-22-01.pdf), _Managing Unacceptable Risk Vulnerabilities_.Additionally, see the Assistant Director’s [blog post](https://www.cisa.gov/blog/2020/09/02/improving-vulnerability-disclosure-together-officially).
@@ -39,9 +39,11 @@ BOD 22-01 requires agencies to monitor this repository for updates and remediate
 
 ### Vulnerability Repository
 |   **CVE**    | **Description** | **Date Added** | **Required Actions & Alternatives** | **Due Date**| **Notes**|
-|(CVE-2021-34527)| CISA has become aware of active exploitation, by multiple threat actors, of a vulnerability (CVE-2021-34527) in the Microsoft Windows Print Spooler service. Exploitation of the vulnerability allows an attacker to remotely execute code with system level privileges enabling a threat actor to quickly compromise the entire identity infrastructure of a targeted organization.
+| ------------- | ------------- | ------------- | ------------- |------------- | ------------- |
+| CVE-2021-34527)| CISA has become aware of active exploitation, by multiple threat actors, of a vulnerability (CVE-2021-34527) in the Microsoft Windows Print Spooler service. Exploitation of the vulnerability allows an attacker to remotely execute code with system level privileges enabling a threat actor to quickly compromise the entire identity infrastructure of a targeted organization.
 
 The Microsoft Print Spooler service improperly performs privileged file operations and fails to restrict access to functionality that allows users to add printers and related drivers, which in turn allows a remote authenticated attacker to execute arbitrary code with SYSTEM privileges on a vulnerable system. CISA has validated various proofs of concept and is concerned that exploitation of this vulnerability may lead to full system compromise of agency networks if left unmitigated.
 
-CISA has determined that this vulnerability poses an unacceptable risk to Federal Civilian Executive Branch agencies and requires emergency action. This determination is based on the current exploitation of this vulnerability by threat actors in the wild, the likelihood of further exploitation of the vulnerability, the prevalence of the affected software in the federal enterprise, and the high potential for a compromise of agency information systems.
-| 7/13/2021| Yes| N/A| 
+CISA has determined that this vulnerability poses an unacceptable risk to Federal Civilian Executive Branch agencies and requires emergency action. This determination is based on the current exploitation of this vulnerability by threat actors in the wild, the likelihood of further exploitation of the vulnerability, the prevalence of the affected software in the federal enterprise, and the high potential for a compromise of agency information systems.| 7/13/2021| Yes| N/A| 
+
+
