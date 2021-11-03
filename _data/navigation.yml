@@ -1,6 +1,8 @@
 primary:
   - text: "Home"
     href: /directives/
+  - text: "22-01 - Reducing the Significant Risk of Known Exploited Vulnerabilities"
+    href: /bod/22-01/
   - text: "21-02 - Mitigate Microsoft Exchange On-Premises Product Vulnerabilities"
     href: /ed/21-02/
   - text: "21-01 - Mitigate SolarWinds Orion Code Compromise"
