@@ -20,6 +20,7 @@ The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) 
 * [ED 19-01]({{ site.baseurl }}/ed/19-01/) - Mitigate DNS Infrastructure Tampering
 
 ## Binding Operational Directives
+* [BOD 22-01]({{ site.baseurl }}/bod/22-01/) - Reducing the Significant Risk of Known Exploited Vulnerabilities 
 * [BOD 20-01]({{ site.baseurl }}/bod/20-01/) - Develop and Publish a Vulnerability Disclosure Policy
 * [BOD 19-02]({{ site.baseurl }}/bod/19-02/) - Vulnerability Remediation Requirements for Internet-Accessible Systems
 * [BOD 18-02]({{ site.baseurl }}/bod/18-02/) - Securing High Value Assets
