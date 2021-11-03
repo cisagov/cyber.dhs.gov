@@ -2,7 +2,7 @@ primary:
   - text: "Home"
     href: /directives/
   - text: "22-01 - Reducing the Significant Risk of Known Exploited Vulnerabilities"
-    href: /bod/20-01/
+    href: /bod/22-01/
   - text: "21-04 - Mitigate Windows Print Spooler Service Vulnerability"
     href: /ed/21-04
   - text: "21-03 - Mitigate Pulse Connect Secure Product Vulnerabilities"
