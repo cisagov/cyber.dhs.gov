@@ -7,6 +7,11 @@ redirect_from:
   - /bod/
 ---
 
+
+## This page and all content is transitioning to [CISA.gov/directives](https://www.cisa.gov/directives). While this transition occurs, previously posted content will remain here but all new products are being posted on [CISA.gov/directives](https://www.cisa.gov/directives).
+
+
+
 The [Cybersecurity and Infrastructure Security Agency](https://cisa.gov) (CISA) at the Department of Homeland Security (DHS) develops and oversees the implementation of "binding operational directives" and "emergency directives," which require action on the part of [certain federal agencies]({{ site.baseurl }}/agencies) in the civilian Executive Branch.
 
 ## Emergency Directives
