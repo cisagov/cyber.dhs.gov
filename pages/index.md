@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 
-## This page and all content is transitioning to [CISA.gov/directives](https://www.cisa.gov/directives). While this transition occurs, previously posted content will remain here but all new products are being posted on [CISA.gov/directives](https://www.cisa.gov/directives).
+## This page and all content is transitioning to [CISA.gov/directives](https://www.cisa.gov/directives). While this transition occurs, previously posted content will remain here, but all new products are being posted on [CISA.gov/directives](https://www.cisa.gov/directives).
 
 
 
