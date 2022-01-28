@@ -1,9 +1,9 @@
 primary:
   - text: "Home"
     href: /directives/
- - text: "22-02 - Mitigate Apache Log4j Vulnerability”"
+  - text: "22-02 - Mitigate Apache Log4j Vulnerability”"
     href: /ed/22-02
- - text: "22-01 - Reducing the Significant Risk of Known Exploited Vulnerabilities"
+  - text: "22-01 - Reducing the Significant Risk of Known Exploited Vulnerabilities"
     href: /bod/22-01/
   - text: "21-04 - Mitigate Windows Print Spooler Service Vulnerability"
     href: /ed/21-04
