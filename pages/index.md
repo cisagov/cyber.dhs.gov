@@ -5,6 +5,7 @@ permalink: /directives/
 redirect_from:
   - /
   - /bod/
+redirect_to: https://www.cisa.gov/directives
 ---
 
 
