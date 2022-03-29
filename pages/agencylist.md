@@ -2,7 +2,7 @@
  layout: base
  title: Agency list
  permalink: /agencies/
-redirect_to: https://www.cisa.gov/agencies
+ redirect_to: https://www.cisa.gov/agencies
 
 ---
 The following civilian Executive Branch agencies fall under CISA's [authorities](https://uscode.house.gov/view.xhtml?hl=false&edition=prelim&req=granuleid%3AUSC-prelim-title44-section3553&f=treesort&num=0&saved=%7CKHRpdGxlOjQ0IHNlY3Rpb246MzU1MiBlZGl0aW9uOnByZWxpbSkgT1IgKGdyYW51bGVpZDpVU0MtcHJlbGltLXRpdGxlNDQtc2VjdGlvbjM1NTIp%7CdHJlZXNvcnQ%3D%7C%7C0%7Cfalse%7Cprelim).
