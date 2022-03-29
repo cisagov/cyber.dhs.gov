@@ -2,6 +2,7 @@
 layout: base
 title: CISA blog
 permalink: /blog/
+redirect_to: https://www.cisa.gov/why-cisa-issued-our-first-emergency-directive
 
 subnav:
   - text: January 24, 2019
