@@ -14,7 +14,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
     "npm": "^7.20.5",
-    "snyk": "^1.672.0",
+    "snyk": "^1.906.0",
     "uswds": "^2.13.2"
   },
   "snyk": true
