@@ -10,10 +10,10 @@
     "cached-path-relative": "^1.0.2",
     "extend": "^3.0.2",
     "gulp": "^4.0.0",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "^5.0.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "npm": "^7.20.5",
+    "npm": "^7.21.0",
     "snyk": "^1.672.0",
     "uswds": "^2.13.2"
   },
